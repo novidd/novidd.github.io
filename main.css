@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* Fonts: Poppins, Plus Jakarta Sans, Inter, Poppins */
+  font-family: Poppins, Arial, sans-serif;
+  color: white;
+  background-color: #0a0a0a;
+}
+
+a {
+  color: white;
+  /* text-decoration: none; */
+}
+
+.footer-wrap {
+  display: none;
+}
