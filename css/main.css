@@ -1,3 +1,17 @@
+:root {
+  --background-rgb: 29 30 34;
+  
+  --blue-rgb: 33 150 243;
+  --primary-rgb: var(--blue-rgb);
+
+  --border-green-rgb: rgba(123, 196, 120, 1);
+  --screen-border-torqblue: rgba(162, 227, 216, 0.75);
+
+  --screen-background-black-rgb: rgba(0, 0, 0, 0.75);
+}
+
+/* GENERAL */
+
 * {
   box-sizing: border-box;
 }
@@ -8,12 +22,64 @@ body {
   color: white;
   background-color: #0a0a0a;
   margin: 0;
+
+  cursor: url("/img/cursor/terminal_cursor.png"), auto;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
   color: white;
+  text-decoration: none;
   /* text-decoration: none; */
+  /* cursor: url("/img/cursor/terminal_cursor_pointer.png"), auto; */
 }
+
+/* STICKY BAR */
+
+.screen {
+  border: 1px solid var(--screen-border-torqblue);
+  background-color: var(--screen-background-black-rgb);
+  border-radius: 0.6rem;
+}
+
+.stickybar {
+  position: fixed;
+  top: 40%;
+  left: 0.5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0;
+  z-index: 3;
+  color: black;
+}
+
+.stickybar-item {
+  padding: 15px;
+}
+
+.stickybar-item-top {
+  padding-bottom: 10px;
+}
+
+.stickybar-item-bottom {
+  padding-top: 10px;
+}
+
+.stickybar-item > i {
+  font-size: 2em;
+  display: block;
+  color: white;
+
+  text-shadow: 0px 0px 0.5rem white;
+}
+
+/* FOOTER */
 
 .footer-wrap {
   display: none;

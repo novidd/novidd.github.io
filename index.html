@@ -5,17 +5,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lucas Pettersson</title>
+
+  <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- ICONS -->
+  <script src="https://kit.fontawesome.com/0eee456650.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/project-card.css">
   <link rel="stylesheet" href="css/header.css">
-  <link rel="icon" type="image/x-icon" href="/img/logo_white.png">
+  <!-- <link rel="icon" type="image/x-icon" href="/img/logo_white.png"> -->
 </head>
 <body>
-    <!-- inspiration : https://www.timothyricks.com/ -->
-    <div class="header">
+    <!-- UX参考: https://www.zekeguo.com/ -->
+    <!-- 画面の右側にアイコンを貼り付ける: EMAIL, LINKED-IN, CV -->
+    <!-- イメージスライドはだめ, GIFの方がいい -->
+    <!--いつか日本語版を作ろう-->
+    <nav class="header">
       <!-- Logo here -->
       <div class="header-left-section">
         <h1 class="name-header">Lucas Pettersson</h1>
@@ -25,17 +35,14 @@
         <a href="" class="navbar-button">About</a>
         <a href="" class="navbar-button">Resume</a>
       </div>
-    </div>
-    <div class="main">
-      <div class="short-about">
-        <!-- <p>Hello there, I'm Lucas! I'm not just a UI/UX designer, but a UI programmer too!</p> -->
-      </div>
+    </nav>
+    <main class="main">
       <div class="projects-content projects-grid">
         <!-- Show six projects when opening portfolio -->
         <!-- Start using medium to document stuff -->
         <div class="project-card-wrap">
           <a href="" class="project-link">
-            <img class="project-image" src="img/placeholder_1.webp">
+            <img class="project-image screen" src="img/placeholder_1.webp">
             <div class="project-info-wrap">
               <p class="project-title">Alien Isolation Main Menu</p>
               <div class="project-tags-wrap">
@@ -48,7 +55,7 @@
         </div>
         <div class="project-item-wrap">
           <a href="" class="project-link">
-            <img class="project-image" src="img/placeholder_1.webp">
+            <img class="project-image screen" src="img/placeholder_1.webp">
             <div class="project-info-wrap">
               <p class="project-title">Project Title</p>
               <div class="project-tags-wrap">
@@ -61,7 +68,7 @@
         </div>
         <div class="project-item-wrap">
           <a href="" class="project-link">
-            <img class="project-image" src="img/placeholder_1.webp">
+            <img class="project-image screen" src="img/placeholder_1.webp">
             <div class="project-info-wrap">
               <p class="project-title">Project Title</p>
               <div class="project-tags-wrap">
@@ -74,33 +81,7 @@
         </div>
         <div class="project-item-wrap">
           <a href="" class="project-link">
-            <img class="project-image" src="img/placeholder_1.webp">
-            <div class="project-info-wrap">
-              <p class="project-title">Project Title</p>
-              <div class="project-tags-wrap">
-                <!-- On hover show the software name. Text is grey color always -->
-                <div class="project-tag">[logo]<span>Figma</span></div>
-                <div class="project-tag">[logo]<span>Unity</span></div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="project-item-wrap">
-          <a href="" class="project-link">
-            <img class="project-image" src="img/placeholder_1.webp">
-            <div class="project-info-wrap">
-              <p class="project-title">Project Title</p>
-              <div class="project-tags-wrap">
-                <!-- On hover show the software name. Text is grey color always -->
-                <div class="project-tag">[logo]<span>Figma</span></div>
-                <div class="project-tag">[logo]<span>Unity</span></div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="project-item-wrap">
-          <a href="" class="project-link">
-            <img class="project-image" src="img/placeholder_1.webp">
+            <img class="project-image screen" src="img/placeholder_1.webp">
             <div class="project-info-wrap">
               <p class="project-title">Project Title</p>
               <div class="project-tags-wrap">
@@ -112,8 +93,12 @@
           </a>
         </div>
       </div>
+    </main>
+    <div class="stickybar stickybar-content screen">
+      <a href="https://www.linkedin.com/in/lucaspetterssonfg/" target="_blank" class="stickybar-item stickybar-item-top"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="mailto:clm.pettersson@gmail.com" class="stickybar-item"><i class="fa-regular fa-envelope"></i></a>
+      <a href="" target="_blank" class="stickybar-item stickybar-item-bottom"><i class="fa-brands fa-linkedin-in"></i></a>
     </div>
-    <div class="neumorphism-1"></div>
     <div class="footer-wrap">
       <div class="footer-content">
         <a href="https://www.linkedin.com/in/lucaspetterssonfg/" target="_blank">Linked in</a>

@@ -1,17 +1,18 @@
 .projects-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+  width: 85%;
 }
 
-.project-card-wrap {
+.project-item-wrap {
   border-radius: 15px;
 }
 
 .project-image {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 1rem;
 }
 
 .project-info-wrap {
