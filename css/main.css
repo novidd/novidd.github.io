@@ -8,6 +8,8 @@
   --screen-border-torqblue: rgba(162, 227, 216, 0.75);
 
   --screen-background-black-rgb: rgba(0, 0, 0, 0.75);
+
+  --white-glow: rgb(255, 240, 210);
 }
 
 /* GENERAL */
@@ -40,12 +42,54 @@ a {
   /* cursor: url("/img/cursor/terminal_cursor_pointer.png"), auto; */
 }
 
+/* HERO */
+
+.hero-light {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow:
+    0 0 60px 30px rgb(255, 250, 240),
+    0 0 100px 60px rgba(255, 250, 238, 0.75),
+    0 0 140px 90px rgba(255, 246, 228, 0.5);
+}
+
 /* STICKY BAR */
 
 .screen {
   border: 1px solid var(--screen-border-torqblue);
   background-color: var(--screen-background-black-rgb);
   border-radius: 0.6rem;
+}
+
+.screen:after,
+.screen:before {
+  content: "";
+  height: 5px;
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  translate: -50% 0%;
+  background-color: white;
+  box-shadow: 0px 0px 10px 1px var(--white-glow);
+}
+
+.screen:before {
+  width: 65%;
+  top: 0rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.screen:after {
+  width: 50%;
+  bottom: 0rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .stickybar {
@@ -77,7 +121,7 @@ a {
   display: block;
   color: white;
 
-  text-shadow: 0px 0px 0.5rem white;
+  text-shadow: 0px 0px 0.5rem var(--white-glow);
 }
 
 /* FOOTER */
