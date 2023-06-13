@@ -48,8 +48,8 @@ section.plus-pattern-container {
     radial-gradient(circle, transparent 0.25rem, var(--background-color) 0.25rem),
     linear-gradient(var(--background-plus-color) 0.1rem, transparent 0.1rem),
     linear-gradient(90deg, var(--background-plus-color) 0.1rem, transparent 0.1rem);
-  background-size: 8rem 8rem;
-  background-position: 6.3rem 6.3rem, 2.5rem 2.225rem, 2.25rem 2.5rem;
+  background-size: 8.25rem 8rem;
+  background-position: 6.4rem 6.3rem, 2.5rem 2.225rem, 2.225rem 2.5rem;
 }
 
 /* HERO */
