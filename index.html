@@ -10,55 +10,35 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <!-- ICONS -->
   <script src="https://kit.fontawesome.com/0eee456650.js" crossorigin="anonymous"></script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/project-card.css">
-  <link rel="stylesheet" href="css/header.css">
   <!-- <link rel="icon" type="image/x-icon" href="/img/logo_white.png"> -->
 </head>
 <body>
+    <section class="plus-pattern-container"></section>
     <!-- UX参考: https://www.zekeguo.com/ -->
-    <!-- 画面の右側にアイコンを貼り付ける: EMAIL, LINKED-IN, CV -->
-    <!-- イメージスライドはだめ, GIFの方がいい -->
-    <!--いつか日本語版を作ろう-->
-    <nav class="header">
-      <!-- Logo here -->
-      <div class="header-left-section">
-        <h1 class="name-header">Lucas Pettersson</h1>
+    <div class="hero">
+      <div class="hero-content-container">
+        <h1 class="hero-header">Lucas Pettersson <span><span class="slashes">//</span> Game UI & UX Designer</span></h1>
+        <div class="hero-buttons-container">
+          <button class="hero-button">Projects</button>
+        </div>
       </div>
-      <div class="header-right-section">
-        <a href="" class="navbar-button">Work</a>
-        <a href="" class="navbar-button">About</a>
-        <a href="" class="navbar-button">Resume</a>
-      </div>
-    </nav>
+    </div>
     <main class="main">
-
-      <!-- HERO -->
-      <!-- This light is place on the "o" in "Pettersson" 
-
-      !! ONLY RUN THIS SEQUENCE BELOW ON THE USERS FIRST VISIT DURING THEIR CURRENT SESSION !!
-
-      SEQUENCE:
-      1. A hand pulls on a handing light switch
-      2. All elements get lit up and blink as if the lights are running on electricity
-
-      OR
-
-      1. The light gets lowered down upon site start
-      2. As the light gets lowered elements on screen get revealed, like my name on the hero
-
-      After this the, stickybar light blinks at a random interval (drawn attention to it)
-
+      <!-- 
+        PROJECTS:
+        1. AnalogHorrorGameProject (Unity)
+        2. Diegetic UI (Unreal Engine 5)
+        3. Analyze and redesign an existing game UI (Learn AdobeXD to do this)
+        4. 
       -->
-      <div class="hero-light"></div>
-      <!-- ADD AN ARROW POINTING DOWN or Have a power line that moves down the site -->
-
-      <!-- END HERO -->
 
       <!-- PROJECTS -->
       <div class="projects-content projects-grid">
@@ -71,76 +51,19 @@
         -->
 
         <!-- PROJECT 1 -->
-        <div class="project-card-wrap">
-          <a href="" class="project-link">
-            <img class="project-image screen" src="img/placeholder_1.webp">
-            <div class="project-info-wrap">
-              <p class="project-title">Alien Isolation Main Menu</p>
-              <div class="project-tags-wrap">
-                <!-- On hover show the software name. Text is grey color always -->
-                <!-- <div class="project-tag">[logo]<span>Figma</span></div>
-                <div class="project-tag">[logo]<span>Unity</span></div> -->
-                <img class="project-tool-image" src="img/tools/unity.png">
-                <img class="project-tool-image" src="img/tools/ue.png">
-                <img class="project-tool-image" src="img/tools/figma.png">
-                <img class="project-tool-image" src="img/tools/ps.png">
-              </div>
-            </div>
-          </a>
-        </div>
         <!-- END PROJECT 1 -->
 
         <!-- PROJECT 2 -->
-        <div class="project-item-wrap">
-          <a href="" class="project-link">
-            <img class="project-image screen" src="img/placeholder_1.webp">
-            <div class="project-info-wrap">
-              <p class="project-title">Project Title</p>
-              <div class="project-tags-wrap">
-                <!-- On hover show the software name. Text is grey color always -->
-                <div class="project-tag">[logo]<span>Figma</span></div>
-                <div class="project-tag">[logo]<span>Unity</span></div>
-              </div>
-            </div>
-          </a>
-        </div>
         <!-- END PROJECT 2 -->
 
         <!-- PROJECT 3 -->
-        <div class="project-item-wrap">
-          <a href="" class="project-link">
-            <img class="project-image screen" src="img/placeholder_1.webp">
-            <div class="project-info-wrap">
-              <p class="project-title">Project Title</p>
-              <div class="project-tags-wrap">
-                <!-- On hover show the software name. Text is grey color always -->
-                <div class="project-tag">[logo]<span>Figma</span></div>
-                <div class="project-tag">[logo]<span>Unity</span></div>
-              </div>
-            </div>
-          </a>
-        </div>
         <!-- END PROJECT 3 -->
         
         <!-- PROJECT 4 -->
-        <div class="project-item-wrap">
-          <a href="" class="project-link">
-            <img class="project-image screen" src="img/placeholder_1.webp">
-            <div class="project-info-wrap">
-              <p class="project-title">Project Title</p>
-              <div class="project-tags-wrap">
-                <!-- On hover show the software name. Text is grey color always -->
-                <div class="project-tag">[logo]<span>Figma</span></div>
-                <div class="project-tag">[logo]<span>Unity</span></div>
-              </div>
-            </div>
-          </a>
-        </div>
         <!-- END PROJECT 4 -->
         
       </div>
     </main>
-    
 
     <!-- STICKY BAR -->
     <div class="stickybar stickybar-content screen">
