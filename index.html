@@ -23,46 +23,101 @@
 <body>
     <section class="plus-pattern-container"></section>
     <!-- UX参考: https://www.zekeguo.com/ -->
-    <div class="hero">
-      <div class="hero-content-container">
-        <h1 class="hero-header">Lucas Pettersson <span><span class="slashes">//</span> Game UI & UX Designer</span></h1>
-        <div class="hero-buttons-container">
-          <button class="hero-button">Projects</button>
-        </div>
-      </div>
-    </div>
     <main class="main">
-      <!-- 
+      <!--
         PROJECTS:
+        Declare a statement for me as an UI & UX Designer, and also for each project individually at the top of the page
         1. AnalogHorrorGameProject (Unity)
         2. Diegetic UI (Unreal Engine 5)
-        3. Analyze and redesign an existing game UI (Learn AdobeXD to do this)
-        4. 
+        3. Analyze and redesign an existing game UI (Learn AdobeXD to do this) - Armored Core? (Use Unity to prototype?)
+        4. Alien Isolation Main Menu Recreation (Unity)
+
+        EXTRA PROJECTS:
+        1. Frictional Games Monster Jam Submission
+        2. Amnesia Rebirth Level Design
       -->
 
+      <!-- On hover project item make add background layer -->
+
+      <!-- MAKE A ALL OF THIS CODE MODULAR, DIVIDE HTML AND CSS INTO CHUNKS -->
+
       <!-- PROJECTS -->
-      <div class="projects-content projects-grid">
-        <!-- Show six projects when opening portfolio -->
-        <!-- LOGO USAGE: 
-          Display the software I used on each project card
-
-          Show Unreal Engine version on top of logo
-          On logo hover show the name of the software 
-        -->
-
-        <!-- PROJECT 1 -->
-        <!-- END PROJECT 1 -->
-
-        <!-- PROJECT 2 -->
-        <!-- END PROJECT 2 -->
-
-        <!-- PROJECT 3 -->
-        <!-- END PROJECT 3 -->
-        
-        <!-- PROJECT 4 -->
-        <!-- END PROJECT 4 -->
-        
-      </div>
+      <div class="angry-grid">
+        <div class="header-row-container" id="item-0">
+          <h1 class="header-row-container-item header">Lucas Pettersson <span><span class="slashes">//</span> Game UI & UX Designer</h1>
+          <div class="header-row-container-item header-divider"></div>
+          <div class="header-row-container-item header-socials-container">
+            <a href="https://www.linkedin.com/in/lucaspetterssonfg/" target="_blank" class="socials-item"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:clm.pettersson@gmail.com" class="socials-item social-item-middle"><i class="fa-regular fa-envelope"></i></a>
+            <a href="" target="_blank" class="socials-item"><img class="cv" src="/img/icon/cv.png"></a>
+          </div>
+        </div>
+        <div class="project-item project-1" id="item-1">
+          <img class="project-item-image" src="/img/projectcards/RoverCard.png">
+          <div class="project-description-widget">
+            <div class="project-description-widget-inner">
+              <h2 class="project-description-title">R.O.V.(E.R.)</h2>
+              <div class="project-details-container">
+                <a class="project-description-button" target="_self">View project</a>
+                <div class="img-wrap">
+                  <img class="project-software-image" src="/img/icon/unity.png">
+                </div>
+                <div class="img-wrap ">
+                  <img class="project-software-image" src="/img/icon/figma.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-item project-2" id="item-2">
+          <img class="project-item-image" src="">
+          <div class="project-description-widget">
+            <div class="project-description-widget-inner">
+              <h2 class="project-description-title">Sevastolink Main Menu</h2>
+              <div class="project-details-container">
+                <a class="project-description-button" target="_self">View project</a>
+                <div class="img-wrap">
+                  <img class="project-software-image" src="/img/icon/unity.png">
+                </div>
+                <div class="img-wrap">
+                  <img class="project-software-image" src="/img/icon/figma.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-item project-3" id="item-3">
+          <img class="project-item-image" src="">
+          <div class="project-description-widget">
+            <div class="project-description-widget-inner">
+              <h2 class="project-description-title">Diegetic Mobile Phone UI</h2>
+              <div class="project-details-container">
+                <a class="project-description-button" target="_self">View project</a>
+                <div class="img-wrap ">
+                  <img class="project-software-image" src="/img/icon/unreal5.png">
+                </div>
+                <div class="img-wrap ">
+                  <img class="project-software-image" src="/img/icon/figma.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-item project-4" id="item-4">
+          <img class="project-item-image" src="">
+          <div class="project-description-widget">
+            <div class="project-description-widget-inner">
+              <h2 class="project-description-title">UI/UX Analysis & Redesign</h2>
+              <div class="project-details-container">
+                <a class="project-description-button" target="_self">View project</a>
+                <div class="img-wrap">
+                  <img class="project-software-image" src="/img/icon/figma.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div id="item-5">More projects</div> -->
     </main>
 
     <!-- STICKY BAR -->

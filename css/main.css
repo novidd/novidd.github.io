@@ -1,10 +1,11 @@
 :root {
   /* BACKGROUND GRID */
-  --background-color: #1a1b24;
+  --background-color: #15161d;
   --background-plus-color: #193364;
 
   /* GENERAL */
   --border-color: #3164c4;
+  --gold-color: #ffd900;
 }
 
 /* GENERAL */
@@ -26,6 +27,8 @@ main {
   align-items: center;
   justify-content: center;
   background-color: linear;
+  width: 100%;
+  height: 100vh;
 }
 
 a {
@@ -53,38 +56,6 @@ section.plus-pattern-container {
 }
 
 /* HERO */
-.hero {
-  height: 100vh;
-  width: 100%;
-  /* border: solid red 3px; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-content-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.hero-header {
-  font-size: 2rem;
-}
-
-.hero-header > span {
-  display: block;
-  font-size: 1.5rem;
-}
-
-.hero-header > span > span {
-  color: #ffd900;
-}
-
-.hero-buttons-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .hero-button {
   font-size: 1.5rem;
@@ -101,6 +72,195 @@ section.plus-pattern-container {
   color: rgb(173, 173, 173);
   cursor: pointer;
 }
+
+/* PROJECTS GRID */
+.angry-grid {
+  display: grid; 
+
+  grid-template-rows: 100px 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  grid-template-areas: 
+  'header header header'
+  'project-1 project-2 project-3'
+  'project-4 . .';
+  
+  gap: 25px;
+
+  height: 90%;
+  width: min(95%, 125rem);
+  
+}
+
+.angry-grid > div {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.75);
+}
+
+#item-0 {
+  grid-area: header;
+}
+#item-1 {
+  grid-area: project-1;
+}
+#item-2 {
+  grid-area: project-2;
+}
+#item-3 {
+  grid-area: project-3;
+}
+#item-4 {
+  grid-area: project-4;
+}
+#item-5 {
+  grid-area: socials;
+}
+
+/* HEADER */
+.header-row-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-row-container-item {
+  margin: 28px;
+}
+
+.header {
+  font-size: 2rem;
+}
+
+.header > span {
+  font-size: 1.5rem;
+}
+
+.header > span > span {
+  color: #ffd900;
+}
+
+.header-socials-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.header-divider {
+  background-color: var(--gold-color);
+  width: 2px;
+  height: 50%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.header-socials-container > .socials-item {
+  font-size: 2rem;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-item-middle {
+  margin: 0px 12px 0px 12px;
+}
+
+.cv {
+  width: 32px;
+}
+
+/* PROJECT 1 */
+.project-1 {
+}
+
+/* PROJECT 2 */
+
+/* PROJECT 3 */
+
+/* PROJECT 4 */
+
+/* PROJECT ITEMS */
+.project-item {
+  overflow: hidden;
+  position: relative;
+  
+  /* DON'T REMOVE THIS MAGIC LINE! If you do, you're gonna have a bad time... */
+  container-type: inline-size;
+}
+
+.project-item-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 0;
+}
+
+.project-description-widget {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  width: 95%;
+  justify-content: flex-start;
+  align-items: center;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.project-description-widget-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-end;
+}
+
+.project-description-title {
+  /* font-size: 22px; */
+  font-size: 4.5cqw;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.project-details-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.project-description-button {
+  background-color: var(--border-color);
+  padding: 15px 20px 15px 20px;
+  border-radius: 5px;
+  
+  color: white;
+  font-size: 3.5cqw;
+  font-weight: 400;
+}
+
+.project-description-button:hover {
+  cursor: pointer;
+}
+
+.img-wrap  {
+  width: 10cqw;
+  height: 10cqw;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 12px;
+}
+
+.project-software-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 /* SCROLL BAR */
 
@@ -192,4 +352,25 @@ section.plus-pattern-container {
 /* FOOTER */
 .footer-wrap {
   display: none;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 1024px) {
+  /* CHANGE THE BEHAVIOR OF THE GRID HERE */
+  .angry-grid {
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-template-areas: 
+    'header header header'
+    'project-1 project-2 project-3'
+    'project-4 . .';
+  }
+
+  .project-description-title {
+    /* font-size: 22px; */
+    font-size: 6cqw;
+    font-weight: 700;
+  }
 }
