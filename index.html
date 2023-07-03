@@ -21,7 +21,15 @@
   <link rel="icon" type="image/x-icon" href="/img/icon_32x32.png">
 </head>
 <body>
-    <section class="plus-pattern-container"></section>
+    <section class="plus-pattern-container">
+      <div class="black-overlay"></div>
+      <video autoplay loop muted plays-inline class="back-video">
+        <source src="/video/map.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+    </section>
+    <!-- ADD A MOVING BACKGROUND (mp4?)-->
+
     <!-- UX参考: https://www.zekeguo.com/ -->
     
     <!-- USE THIS LAYOUR AND STYLE FOR EACH PROJECT PAGE 
@@ -61,9 +69,9 @@
           <img class="project-item-image" src="/img/projectcards/RoverCard.png">
           <div class="project-description-widget">
             <div class="project-description-widget-inner">
-              <h2 class="project-description-title">R.O.V.(E.R.)</h2>
+              <h2 class="project-description-title">AnalogOceanHorrorProject</h2>
               <div class="project-details-container">
-                <a class="project-description-button" target="_self">View project</a>
+                <a class="project-description-button" target="_self" href="/analoghorror.html" >View project</a>
                 <div class="img-wrap">
                   <img class="project-software-image" src="/img/icon/unity.png">
                 </div>
@@ -75,7 +83,7 @@
           </div>
         </div>
         <div class="project-item project-2" id="item-2">
-          <img class="project-item-image" src="">
+          <img class="project-item-image" src="/img/projectcards/AlienIsolation.png">
           <div class="project-description-widget">
             <div class="project-description-widget-inner">
               <h2 class="project-description-title">Sevastolink Main Menu</h2>
@@ -92,7 +100,7 @@
           </div>
         </div>
         <div class="project-item project-3" id="item-3">
-          <img class="project-item-image" src="">
+          <img class="project-item-image" src="/img/projectcards/DiegeticPhone.png">
           <div class="project-description-widget">
             <div class="project-description-widget-inner">
               <h2 class="project-description-title">Diegetic Mobile Phone UI</h2>
@@ -122,6 +130,7 @@
             </div>
           </div>
         </div>
+      </div>
         <!-- <div id="item-5">More projects</div> -->
     </main>
 
