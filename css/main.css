@@ -43,7 +43,7 @@ a {
 /* BACKGROUND GRID */
 
 section.plus-pattern-container {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -409,7 +409,7 @@ section.plus-pattern-container {
   }
 }
 
-@media (min-aspect-ratio: 16/9) {
+/* @media (min-aspect-ratio: 16/9) {
   .back-video {
     width: 100%;
     height: auto;
@@ -421,7 +421,7 @@ section.plus-pattern-container {
     width: auto;
     height: 100%;
   }
-}
+} */
 
 @media (max-width: 640px) {
   /* CHANGE THE BEHAVIOR OF THE GRID HERE */

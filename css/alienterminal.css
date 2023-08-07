@@ -1,0 +1,44 @@
+:root {
+  --green-color: #0afe60;
+  --greendark-color: #03240e;
+}
+
+.projectpage-imglogo {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 32px;
+}
+
+/* iframe {
+  max-width: 100%;
+  max-height: 75%;
+} */
+
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  /* background-color: #cfcfcf; */
+}
+
+.h_iframe {
+  position:relative;
+  padding-top: 56%;
+}
+
+.h_iframe iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+
+  border: 2px solid var(--greendark-color);
+  border-radius: 8px;
+  border-style: dashed;
+}
+
+hr {
+  border: 2px dashed var(--greendark-color);
+}
