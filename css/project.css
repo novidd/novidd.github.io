@@ -1,0 +1,36 @@
+:root {
+  --green-color: #0afe60;
+}
+
+.projectpage-main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.projectpage-section {
+  display: block;
+
+  width: 50%;
+}
+
+.projectpage-section-centered {
+  text-align: center;
+}
+
+hr {
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+/* TEXT */
+.highlighted-text {
+  color: var(--green-color);
+}
+
+a {
+  color: var(--green-color);
+}

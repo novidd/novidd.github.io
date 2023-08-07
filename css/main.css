@@ -6,6 +6,8 @@
   /* GENERAL */
   --border-color: #24669d;
   --gold-color: #ffd900;
+
+  --orange-color: #F19D38;
 }
 
 /* GENERAL */
@@ -22,7 +24,7 @@ body {
   /* cursor: url("/img/cursor/terminal_cursor.png"), auto; */
 }
 
-main {
+.main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,8 +34,8 @@ main {
 }
 
 a {
-  color: white;
-  text-decoration: none;
+  color: var(--orange-color);
+  text-decoration: underline;
   /* text-decoration: none; */
   /* cursor: url("/img/cursor/terminal_cursor_pointer.png"), auto; */
 }
@@ -303,12 +305,12 @@ section.plus-pattern-container {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #141414;
+  background: #0f0f0f;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #383a4e;
+  background: #222222;
 }
 
 /* Handle on hover */
@@ -475,5 +477,5 @@ section.plus-pattern-container {
 /* TEXT */
 
 .highlighted-text {
-  color: #F19D38;
+  color: var(--orange-color);
 }
