@@ -42,3 +42,20 @@
 hr {
   border: 2px dashed var(--greendark-color);
 }
+
+.projectpage-colorthemes-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.projectpage-colorthemes-item {
+  background-color: white;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+
+  margin-right: 16px;
+}
+
+.projectpage-colorthemes-item > span {
+}

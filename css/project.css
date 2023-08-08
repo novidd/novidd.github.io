@@ -12,8 +12,27 @@
   min-width: 60%;
 }
 
+.projectpage-section > p {
+  margin-top: 0;
+}
+
 .projectpage-section-centered {
   text-align: center;
+}
+
+.projectpage-header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projectpage-header-wrapper > h1 {
+  
+  font-size: 1.75em;
+}
+
+.projectpage-header-wrapper > a {
+  margin-left: 8px;
 }
 
 hr {
