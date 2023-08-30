@@ -1,6 +1,6 @@
 :root {
   /* BACKGROUND GRID */
-  --background-color: #15161d;
+  --background-color: #000000;
   --background-plus-color: #193364;
 
   /* GENERAL */
@@ -21,7 +21,6 @@ body {
   color: white;
   background-color: var(--background-color);
   margin: 0;
-  background-color: #000000;
 
   /* cursor: url("/img/cursor/terminal_cursor.png"), auto; */
 }
