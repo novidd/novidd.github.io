@@ -3,6 +3,14 @@
   --greendark-color: #03240e;
 }
 
+body {
+  color: white;
+  background-color: #000000;
+  margin: 0;
+
+  /* cursor: url("/img/cursor/terminal_cursor.png"), auto; */
+}
+
 /* INDEX MENU */
 .projectpage-index-menu-wrapper {
   position: fixed;
