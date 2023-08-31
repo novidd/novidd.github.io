@@ -32,6 +32,10 @@ a {
   /* cursor: url("/img/cursor/terminal_cursor_pointer.png"), auto; */
 }
 
+.bold {
+  font-weight: 600;
+}
+
 /* BACKGROUND VIDEO */
 
 section.plus-pattern-container {
