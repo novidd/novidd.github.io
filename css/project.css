@@ -115,6 +115,25 @@ a {
   border-style: dashed;
 }
 
+.projectpage-hor-ver-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.projectpage-hor-var-content-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-bottom: 16px;
+}
+
+.projectpage-image-right {
+  width: 100px;
+  margin-right: 32px;
+}
+
 /* MEDIA QUERY */
 @media (max-width: 1500px) {
   .projectpage-section {
