@@ -36,6 +36,10 @@ a {
   font-weight: 600;
 }
 
+.tiny-text {
+  font-size: 16px;
+}
+
 /* BACKGROUND VIDEO */
 
 section.plus-pattern-container {

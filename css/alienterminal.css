@@ -11,6 +11,11 @@ body {
   /* cursor: url("/img/cursor/terminal_cursor.png"), auto; */
 }
 
+@font-face {
+  font-family: SevastopolInterface;
+  src: url(/font/Sevastopol-Interface.ttf);
+}
+
 /* INDEX MENU */
 .projectpage-index-menu-wrapper {
   position: fixed;
