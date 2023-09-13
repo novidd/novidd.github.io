@@ -22,7 +22,7 @@ p {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  padding: 3%;
+  padding: 1%;
   margin: 0 auto;
 }
 
@@ -131,6 +131,7 @@ a {
 
 .projectpage-image-right {
   width: 100px;
+  height: 100px;
   margin-right: 32px;
 }
 

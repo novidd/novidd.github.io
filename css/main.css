@@ -40,6 +40,28 @@ a {
   font-size: 16px;
 }
 
+/* NAVBAR */
+
+nav {
+  display: flex;
+  align-items: end;
+  height: 64px;
+}
+
+nav div {
+  width: 100px;
+  margin-left: 64px;
+  margin-bottom: 0;
+  border-bottom: 2px solid white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
 /* BACKGROUND VIDEO */
 
 section.plus-pattern-container {
