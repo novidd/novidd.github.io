@@ -1,3 +1,16 @@
+:root {
+  /* BACKGROUND GRID */
+  --background-color: #0f0f0f;
+  --background-plus-color: #193364;
+
+  /* GENERAL */
+  --orange-color: #F19D38;
+
+  /* COLOR PALETTE*/
+  --palette-green-color: #0afe60;
+  --palette-greendark-color: #021609;
+}
+
 /* INDEX MENU */
 .projectpage-index-menu-wrapper {
   position: fixed;
@@ -22,7 +35,7 @@ p {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  padding: 3%;
+  padding: 4%;
   margin: 0 auto;
 }
 
@@ -63,15 +76,6 @@ hr {
   margin-bottom: 32px;
 }
 
-/* TEXT */
-.highlighted-text {
-  color: var(--green-color);
-}
-
-a {
-  color: var(--green-color);
-}
-
 /* PROJECT GRID GALLERY */
 .projectpage-image-grid-wrapper {
   width: 100%;
@@ -107,6 +111,7 @@ a {
 }
 
 .projectpage-image-block {
+  overflow: hidden;
   width: 300px;
   height: 192px;
   position: relative;

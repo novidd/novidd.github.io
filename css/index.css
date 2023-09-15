@@ -5,13 +5,6 @@
 
   /* GENERAL */
   --orange-color: #F19D38;
-
-  /* COLOR PALETTE*/
-  --palette-blue: #002B36;
-  --palette-blue-dark: #000f13;
-  --palette-blue-light: #004050;
-  --palette-yellow: #FFE47A;
-  --palette-brown: #A85E44;
 }
 /* GENERAL */
 * {
@@ -21,21 +14,61 @@
 
 body {
   color: white;
-  background-color: var(--palette-blue-dark);
+  background-color: #000000;
   margin: 0;
 }
 
+p {
+  font-size: 1.25em;
+}
+
+/* ABOUT */
+.index-about {
+  padding: 96px;
+  padding-top: 128px;
+  margin-bottom: 96px;
+  height: min-content;
+  border: var(--palette-greendark-color) solid 2px;
+  border-radius: 0 0 50px 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.index-about-profile {
+  width: 400px;
+
+  border-bottom-width: 1px;
+  border-color: var(--palette-greendark-color);
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 1px;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.index-about p {
+  margin-left: 32px;
+  border: var(--palette-greendark-color) solid 1px;
+  border-radius: 10px;
+  max-width: 600px;
+  padding: 32px;
+}
+
+/* PROJECTS */
 .index-projects-wrapper-outer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow: visible;
-  padding: 200px 64px;
+  padding: 0px 64px;
   width: 100%;
-  height: 100vh;
   /* border: red solid 2px; */
 }
+
 
 .index-projects-wrapper-row {
   display: flex;
@@ -47,8 +80,9 @@ body {
 }
 
 .index-project-content {
+  overflow: hidden;
   border-bottom-width: 1px;
-    border-color: rgba(245, 245, 245, 0.1);
+    border-color: var(--palette-greendark-color);
     border-left-width: 1px;
     border-right-width: 1px;
     border-style: solid;
@@ -79,14 +113,22 @@ body {
   z-index: -1;
   width: 100%; /* or any custom size */
   height: 100%; 
-  object-fit: contain;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .index-project-content-details {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+
+  overflow: hidden;
+
   display: flex;
   flex-direction: column;
   gap: 4px;
   padding: 24px;
+  background: linear-gradient(rgba(80, 80, 80, 0) 1%, rgb(0, 0, 0) 100%);
 }
 
 .index-project-content-details h1, p {
@@ -114,8 +156,15 @@ body {
   height: 32px;
 }
 
-/* ABOUT */
-.about {
-  height: 500px;
-  border: red solid 2px;
+hr {
+  border: 1px solid var(--palette-greendark-color);
+  width: 50%;
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+/* STUDIES */
+.index-studies {
+  width: 80%;
+  margin: 0 auto;
 }

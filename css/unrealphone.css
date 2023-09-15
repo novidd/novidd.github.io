@@ -11,6 +11,14 @@ body {
   /* cursor: url("/img/cursor/terminal_cursor.png"), auto; */
 }
 
+.highlighted-text {
+  color: var(--green-color);
+}
+
+a {
+  color: var(--green-color);
+}
+
 /* INDEX MENU */
 .projectpage-index-menu-wrapper {
   position: fixed;
@@ -81,7 +89,7 @@ body {
 }
 
 hr {
-  border: 2px dashed var(--greendark-color);
+  border: 1px solid var(--greendark-color);
 }
 
 .projectpage-colorthemes-wrapper {
@@ -96,12 +104,12 @@ hr {
   height: 75px;
   text-align: center;
 
+  
   margin-right: 16px;
 }
 
 .projectpage-image-block:hover {
-  border: dashed 2px var(--green-color);
-  border-style: dashed;
+  border: solid 2px var(--green-color);
 }
 
 
@@ -111,7 +119,6 @@ hr {
   position: relative;
   border: 2px solid var(--greendark-color);
   border-radius: 8px;
-  border-style: dashed;
 }
 
 .projectpage-colorthemes-item > span {

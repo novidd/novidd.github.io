@@ -31,18 +31,20 @@
 
 <body>
   <nav>
-    <div><a>Home</a></div>
-    <div><a>Projects</a></div>
-    <div><a>About</a></div>
+    <a class="nav-menu-name" href="index.html">Lucas Pettersson</a>
+    <div class="nav-menu">
+      <div style="border-color: #0afe60;"><a href="index.html">Home</a></div>
+      <div class="dropdown">
+        <a href="#">Projects</a>
+        <div class="dropdown-content">
+          <a href="/alienterminal.html">Alien Terminal</a>
+          <a href="/unrealphone.html">Interactable Phone</a>
+        </div>
+      </div>
+      <div><a href="#">CV</a></div>
+      <div><a href="contact.html">Contact</a></div>
+    </div>
   </nav>
-
-  <div class="projectpage-index-menu-wrapper">
-    <a href="#about" class="projectpage-index-menu-item">I.</a>
-    <a href="#goals" class="projectpage-index-menu-item">II.</a>
-    <a href="#theme" class="projectpage-index-menu-item">III.</a>
-    <a href="#assets" class="projectpage-index-menu-item">IV.</a>
-    <a href="#shots" class="projectpage-index-menu-item">V.</a>
-  </div>
 
   <div class="projectpage-main">
     <section class="projectpage-section projectpage-section-centered">
@@ -124,15 +126,21 @@
       </div>
       <hr>
     </section>
-    <section id="shots" class="projectpage-section">
+    <section id="reflection" class="projectpage-section">
       <div class="projectpage-header-wrapper">
-        <h1><span class="highlighted-text">V.</span> Screenshots (UE5)<a href="#shots"><i class="fa-solid fa-link"></i></a></h1>
+        <h1><span class="highlighted-text">V.</span> Reflection<a href="#reflection"><i class="fa-solid fa-link"></i></a></h1>
       </div>
       Grid of screenshots here
       <hr>
     </section>
     <h2>Game Studies (include section with Methodology)</h2>
   </div>
+  <footer>
+    <div class="footer-item">Lucas Pettersson</div>
+    <div class="footer-item">clm.pettersson@gmail.com</div>
+    <div class="footer-item">+46 73 829 84 52</div>
+    <div class="footer-item"><a href="#">CV Download</a></div>
+  </footer>
 </body>
 
 </html>
