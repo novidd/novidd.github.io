@@ -5,6 +5,12 @@
 
   /* GENERAL */
   --orange-color: #F19D38;
+
+  /* COLOR PALETTE*/
+  --palette-blue: #002B36;
+  --palette-blue-light: #004050;
+  --palette-yellow: #FFE47A;
+  --palette-brown: #A85E44;
 }
 
 html {
@@ -43,9 +49,14 @@ a {
 /* NAVBAR */
 
 nav {
+  position: fixed;
   display: flex;
-  align-items: end;
+  align-items: center;
   height: 64px;
+  z-index: 999;
+  /* background: linear-gradient(#000000, rgba(145, 152, 229, 0)); */
+  background: linear-gradient(rgb(0, 0, 0) 10%, rgba(80, 80, 80, 0) 100%);;
+  width: 100%;
 }
 
 nav div {

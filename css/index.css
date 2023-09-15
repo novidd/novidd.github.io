@@ -1,0 +1,100 @@
+:root {
+  /* BACKGROUND GRID */
+  --background-color: #0f0f0f;
+  --background-plus-color: #193364;
+
+  /* GENERAL */
+  --orange-color: #F19D38;
+
+  /* COLOR PALETTE*/
+  --palette-blue: #002B36;
+  --palette-blue-dark: #000f13;
+  --palette-blue-light: #004050;
+  --palette-yellow: #FFE47A;
+  --palette-brown: #A85E44;
+}
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  color: white;
+  background-color: var(--palette-blue-dark);
+  margin: 0;
+}
+
+.index-projects-wrapper-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: visible;
+  padding: 200px 64px;
+  width: 100%;
+  /* border: red solid 2px; */
+}
+
+.index-projects-wrapper-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 85%;
+  gap: 64px;
+}
+
+.index-project-content {
+  border-bottom-width: 1px;
+    border-color: rgba(245, 245, 245, 0.1);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.index-project-aspect-wrapper {
+  display: inline-block; /* shrink to fit */
+  width: 75%;           /* whatever width you like */
+  position: relative;    /* so .content can use position: absolute */
+}
+.index-project-aspect-wrapper::after {
+  padding-top: 56.25%; /* percentage of containing block _width_ */
+  display: block;
+  content: '';
+}
+.index-project-content {
+  position: absolute;
+  top: 0; bottom: 0; right: 0; left: 0;  /* follow the parent's edges */
+}
+
+.index-project-content-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 24px;
+}
+
+.index-project-content-details h1, p {
+  margin: 0;
+}
+
+.index-project-content-details h1 {
+  text-transform: uppercase;
+}
+
+.index-project-content-details p {
+  font-size: 1.15em;
+}
+
+.index-project-content-details-software {
+  display: flex;
+  flex-direction: row;
+}
+
+.index-project-content-details-software img {
+  width: 32px;
+  height: 32px;
+}
