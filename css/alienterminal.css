@@ -45,7 +45,7 @@ nav div {
 .projectpage-imglogo {
   max-width: 100%;
   max-height: 100%;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 
 :target:not(button) {
