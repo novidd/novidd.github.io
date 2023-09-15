@@ -29,9 +29,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   overflow: visible;
   padding: 200px 64px;
   width: 100%;
+  height: 100vh;
   /* border: red solid 2px; */
 }
 
@@ -59,6 +61,8 @@ body {
   display: inline-block; /* shrink to fit */
   width: 75%;           /* whatever width you like */
   position: relative;    /* so .content can use position: absolute */
+
+  color: white;
 }
 .index-project-aspect-wrapper::after {
   padding-top: 56.25%; /* percentage of containing block _width_ */
@@ -68,6 +72,14 @@ body {
 .index-project-content {
   position: absolute;
   top: 0; bottom: 0; right: 0; left: 0;  /* follow the parent's edges */
+}
+
+.index-project-content-background {
+  position: absolute;
+  z-index: -1;
+  width: 100%; /* or any custom size */
+  height: 100%; 
+  object-fit: contain;
 }
 
 .index-project-content-details {
@@ -92,9 +104,18 @@ body {
 .index-project-content-details-software {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  height: 32px;
+  gap: 8px;
 }
 
 .index-project-content-details-software img {
   width: 32px;
   height: 32px;
+}
+
+/* ABOUT */
+.about {
+  height: 500px;
+  border: red solid 2px;
 }
