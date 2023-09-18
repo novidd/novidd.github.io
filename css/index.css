@@ -73,9 +73,8 @@ p {
 .index-projects-wrapper-row {
   display: flex;
   flex-direction: row;
-  align-items: center;
 
-  width: 85%;
+  width: 100%;
   gap: 64px;
 }
 
@@ -98,11 +97,29 @@ p {
 
   color: white;
 }
+
 .index-project-aspect-wrapper::after {
   padding-top: 56.25%; /* percentage of containing block _width_ */
   display: block;
   content: '';
 }
+
+/* PROJECT CARD HOVER ANIMATION */
+.index-project-aspect-wrapper { 
+  transition: all 300ms ease-in;
+}
+
+.index-project-aspect-wrapper:hover { 
+  transform: scale(101%);
+}
+
+
+.index-project-aspect-wrapper:hover .index-project-trans-overlay { 
+  /* background: #0000002a; */
+  /* background: linear-gradient(rgba(80, 80, 80, 0) 50%, rgb(0, 0, 0) 100%); */
+  background-color: rgb(0, 0, 0, 0);
+}
+
 .index-project-content {
   position: absolute;
   top: 0; bottom: 0; right: 0; left: 0;  /* follow the parent's edges */
@@ -128,7 +145,22 @@ p {
   flex-direction: column;
   gap: 4px;
   padding: 24px;
-  background: linear-gradient(rgba(80, 80, 80, 0) 1%, rgb(0, 0, 0) 100%);
+
+  /* background: linear-gradient(rgba(80, 80, 80, 0) 0%, rgb(0, 0, 0) 100%); */
+}
+
+.index-project-trans-overlay {
+  background: linear-gradient(265.27deg, #0000 20.55%, #00F27E 94.17%);  
+  transition: all 300ms ease-in;
+  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  /* ON HOVER PROJECT LOWER THIS TRANSPARANCY OVER TIME */
+  background: linear-gradient(rgba(80, 80, 80, 0) 0%, rgba(0, 0, 0, 0.75) 100%);
+  background-color: rgb(0, 0, 0, 0.2);
+  z-index: -1;
 }
 
 .index-project-content-details h1, p {
