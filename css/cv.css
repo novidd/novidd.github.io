@@ -1,0 +1,24 @@
+:root {
+  /* BACKGROUND GRID */
+  --background-color: #0f0f0f;
+  --background-plus-color: #193364;
+
+  /* GENERAL */
+  --orange-color: #F19D38;
+}
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  color: white;
+  background-color: #000000;
+  margin: 0;
+}
+
+.cv-section {
+  height: 100vh;
+  border: red solid 2px;
+}
