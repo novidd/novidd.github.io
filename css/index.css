@@ -67,6 +67,7 @@ p {
   padding: 0px 64px;
   width: 100%;
   /* border: red solid 2px; */
+  gap: 64px;
 }
 
 
