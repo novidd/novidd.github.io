@@ -22,133 +22,61 @@
   <script src="https://kit.fontawesome.com/0eee456650.js" crossorigin="anonymous"></script>
 
   <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
+
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="icon" type="image/x-icon" href="/img/icon_64x64.png">
 </head>
 <body>
   <div class="socials-wrapper">
-    <a class="socials-item" href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-    <a class="socials-item" href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank"><img src="img/icon/cv.png"></a>
+    <a class="window socials-item" href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a class="window socials-item" href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank"><img src="img/icon/cv.png"></a>
   </div>
+  <nav class="window nav">
+    <a class="nav-menu-name" href="index.html">Lucas Pettersson</a>
+    <div class="nav-menu">
+      <a href="index.html">UI & UX Projects</a>
+      <a href="#">Games</a>
+      <a href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank">Studies/Analysis</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
     <main class="main">
-      <nav>
-        <a class="nav-menu-name" href="index.html">Lucas Pettersson</a>
-        <div class="nav-menu">
-          <div style="border-color: #0afe60;"><a href="index.html">Home</a></div>
-          <div class="dropdown">
-            <a href="#">Projects</a>
-            <div class="dropdown-content">
-              <a href="/alienterminal.html">Alien Terminal</a>
-              <a href="/unrealphone.html">Interactable Phone</a>
-              <a href="/somacamera.html">Soma Camera</a>
-            </div>
+      <!-- <div class="window" style="width: 800px">
+        <div class="window-body">
+          <p>There's so much room for activities!</p>
+          <div class="field-row">
+            <label for="text17">Occupation</label>
+            <input  type="text" />
           </div>
-          <div><a href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank">CV</a></div>
-          <div><a href="contact.html">Contact</a></div>
         </div>
-      </nav>
-      <section id="about" class="index-about">
+      </div> -->
+
+
+      <section id="about" class="index-about window">
         <img class="index-about-profile" src="/img/me/profile_tiny.jpg">
-        <p>
-          I'm Lucas Pettersson, a <span class="highlighted-text">UI & UX designer</span> studying at Future Games.
-          I like to find what's special with, for example, a main menu -- it's important to set the tone from the start of a <span class="highlighted-text">User's Experience</span>.
-          <br>
-          <br>
-          You can probably tell I like to implement technology in my UI designs :)
-          <br><br><br>
-          Looking for an intern? <a href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank">Contact me.</a>
-        </p>
-      </section>
-      <h1 style="display: inline; margin: 64px;" >My Projects</h1>
-      <section style="margin-top: 32px;" class="index-projects-wrapper-outer">
-        <!-- ROW 1 -->
-        <div class="index-projects-wrapper-row">
-          <!-- <a class="index-project-aspect-wrapper" href="">
-            <div style="background-color: rgba(0, 0, 0, 0.66);" class="index-project-content">
-              <img class="index-project-content-background" src="/img/projects/winxp_horror.png">
-              <div class="index-project-trans-overlay"></div>
-              <div class="index-project-content-details">
-                <p>Game Project - WIP </p>
-                <h1>Analog Horror Game - WIP Coming Soon</h1>
-                <div class="index-project-content-details-software">
-                  <img src="/img/icon/unity.png">
-                  <img src="/img/icon/figma.png">
-                  <img src="/img/icon/photoshop.png">
-                </div>
-              </div>
-            </div>
-          </a> -->
-          <a class="index-project-aspect-wrapper" href="/somacamera.html">
-            <div class="index-project-content">
-              <img class="index-project-content-background" src="/img/projects/soma_fan_game.jpg">
-              <div class="index-project-trans-overlay"></div>
-              <div class="index-project-content-details">
-                <p>UI Design + Game Engine Implementation</p>
-                <h1>SOMA Inspired Security Camera UI</h1>
-                <div class="index-project-content-details-software">
-                  <img src="/img/icon/unity.png">
-                  <img src="/img/icon/figma.png">
-                </div>
-              </div>
-            </div>
-          </a>
-          <a class="index-project-aspect-wrapper" href="/alienterminal.html">
-            <div class="index-project-content">
-              <img class="index-project-content-background" src="/img/projects/projectcard_alienterminal.png">
-              <div class="index-project-trans-overlay"></div>
-              <div class="index-project-content-details">
-                <p>UI Design + Game Engine Implementation</p>
-                <h1>Alien Main Menu Terminal</h1>
-                <div class="index-project-content-details-software">
-                  <img src="/img/icon/unity.png">
-                  <img src="/img/icon/figma.png">
-                  <img src="/img/icon/photoshop.png">
-                </div>
-              </div>
-            </div>
-          </a>
+        <div class="inset-text-box">
+          <p>
+            I'm Lucas Pettersson, a <span class="highlighted-text">UI & UX designer</span> studying at Future Games.
+            I like to find what's special with, for example, a main menu -- it's important to set the tone from the start of a <span class="highlighted-text">User's Experience</span>.
+
+            You can probably tell I like to implement technology in my UI designs :)
+
+            Looking for an intern? <a href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank">Contact me.</a>
+          </p>
         </div>
-        <div class="index-projects-wrapper-row">
-          <!-- <a class="index-project-aspect-wrapper" href="/alienterminal.html">
-            <div class="index-project-content">
-              <img class="index-project-content-background" src="/img/projects/projectcard_alienterminal.png">
-              <div class="index-project-trans-overlay"></div>
-              <div class="index-project-content-details">
-                <p>UI Design + Game Engine Implementation</p>
-                <h1>Alien Main Menu Terminal</h1>
-                <div class="index-project-content-details-software">
-                  <img src="/img/icon/unity.png">
-                  <img src="/img/icon/figma.png">
-                  <img src="/img/icon/photoshop.png">
-                </div>
-              </div>
-            </div>
-          </a> -->
-          <a style="width: 48.25%;" class="index-project-aspect-wrapper" href="/unrealphone.html">
-            <div class="index-project-content">
-              <img class="index-project-content-background" src="/img/projects/projectcard_unrealphone.png">
-              <div class="index-project-trans-overlay"></div>
-              <div class="index-project-content-details">
-                <p>UI Design + Game Engine Implementation</p>
-                <h1>Diegetic Interactable Phone</h1>
-                <div class="index-project-content-details-software">
-                  <img src="/img/icon/unreal5.png">
-                  <img src="/img/icon/figma.png">
-                  <img src="/img/icon/photoshop.png">
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div style="margin-top: 32px; margin-bottom: 32px;"></div>
+        <!-- <pre style="max-width: 350px;" class="text-box">
+          <code>
+            I'm Lucas Pettersson, a <span class="highlighted-text">UI & UX designer</span> studying at Future Games.
+            I like to find what's special with, for example, a main menu -- it's important to set the tone from the start of a <span class="highlighted-text">User's Experience</span>.
+
+            You can probably tell I like to implement technology in my UI designs :)
+            Looking for an intern? <a href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank">Contact me.</a>
+          </code>
+        </pre> -->
       </section>
-      <hr style="margin-top: 0px;">
-      <section class="index-studies">
-        <h1>UI Studies & Analysis</h1>
-        <p><span class="highlighted-text">WIP</span></p>
-      </section>
-      <footer>
+      <footer class="footer window">
         <div class="footer-item">Lucas Pettersson</div>
         <div class="footer-item">clm.pettersson@gmail.com</div>
         <div class="footer-item">+46 73 829 84 52</div>
