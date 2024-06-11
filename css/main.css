@@ -85,7 +85,7 @@ main {
 }
 
 .window-wip {
-  box-shadow: inset #A76767 2px 2px, inset -2px -2px #832c2c, inset 4px 4px #BF7F7F,inset -2px -2px #dfdfdf,  2px 2px #602020;
+  box-shadow: inset #A76767 2px 2px, inset -2px -2px #805757, inset 4px 4px #BF7F7F,inset -2px -2px #dfdfdf,  2px 2px #602020;
 }
 
 /* NAVBAR */
