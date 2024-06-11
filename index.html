@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home | Lucas Pettersson</title>
 
   <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"/>
+
   <!-- ICONS -->
   <script src="https://kit.fontawesome.com/0eee456650.js" crossorigin="anonymous"></script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
 
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="icon" type="image/x-icon" href="/img/icon_64x64.png">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/index.css" />
+
+  <!-- SITE ICON -->
+  <link rel="icon" type="image/x-icon" href="/img/icon_64x64.png" />
 </head>
+
 <body>
+  <!-- MOBILE ERROR -->
+  <div class="mobile-error">Apologies, mobile version of the website is currently broken.</div>
+
+  <!-- SOCIALS -->
   <div class="socials-wrapper">
     <a class="window socials-item" href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank">in</a>
-    <a class="window socials-item" href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank">cv</a>
+    <a class="window socials-item"
+      href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank">cv</a>
   </div>
+
+  <!-- NAV -->
   <nav class="window nav">
     <div class="nav-menu">
       <a class="nav-menu-name" href="index.html">Lucas Pettersson</a>
@@ -32,112 +44,121 @@
       <a href="contact.html">Contact</a>
     </div>
   </nav>
-    <main class="main">
 
-      <section id="about" class="index-about window">
-        <img class="index-about-profile" src="/img/me/profile_tiny.jpg">
-        <div class="inset-text-box">
-          <p>
-            I'm Lucas Pettersson, a <span class="highlighted-text">UI & UX designer</span> studying at Future Games. 
-            I like to find what's special with, for example, a main menu - it's important to set the tone from the start of a <span class="highlighted-text">User's Experience</span>.
-            <br>
-            <br>
-            <a href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank">Contact me.</a>
-          </p>
-        </div>
-      </section>
+  <main class="main">
 
-      <!-- UI & UX Projects -->
-      <section id="UIUX" class="projects-section">
-        <div class="header-container">
-          <div class="header-box window"></div>
-          <p style="color:#02FF2B;">UI & UX Projects</p>
-        </div>
-        <div class="projects-section-row">
-          <a href="#" class="projects-section-project">
-            <img src="/img/projects_cover/project_cover_soma.png" class="project-image window">
-            <div class="project-info-container window">
-              <div class="project-info-dash-box">
-                <span class="project-info-container-name">Camera HUD UI Design & Engine Implementation</span>
-                <span class="project-info-container-info">Unity, Figma</span>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="projects-section-project">
-            <img src="/img/projects_cover/project_cover_alienterminal.png" class="project-image window">
-            <div class="project-info-container window">
-              <div class="project-info-dash-box">
-                <span class="project-info-container-name">Main Menu UI Design & Engine Implementation </span>
-                <span class="project-info-container-info">Unity, Figma</span>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="projects-section-project">
-            <img src="/img/projects_cover/project_cover_unrealphone.png" class="project-image window">
-            <div class="project-info-container window">
-              <div class="project-info-dash-box">
-                <span class="project-info-container-name">Phone UI Design & Engine Implementation </span>
-                <span class="project-info-container-info">Unreal Engine 5, Figma</span>
-              </div>
-            </div>
-          </a>
-        </div>
-      </section>
+    <!-- ABOUT -->
+    <section id="about" class="index-about window">
+      <img class="index-about-profile" src="/img/me/profile_tiny.jpg" />
+      <div class="inset-text-box">
+        <p>
+          I'm Lucas Pettersson, a
+          <span class="highlighted-text">UI & UX designer</span> studying at
+          Future Games. I like to find what's special with, for example, a
+          main menu - it's important to set the tone from the start of a
+          <span class="highlighted-text">User's Experience</span>.
+          <br />
+          <br />
+          <a href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank">Contact me.</a>
+        </p>
+      </div>
+    </section>
 
-      <!-- Game Projects -->
-      <section id="Games" class="projects-section">
-        <div class="header-container">
-          <div class="header-box window"></div>
-          <p style="color:#FFFF00;">Game Projects</p>
-        </div>
-        <div class="projects-section-row">
-          <a href="https://futuregames.itch.io/toy-invasion-mania" target="_blank" class="projects-section-project">
-            <img src="/img/projects_cover/project_cover_toy.png" class="project-image window">
-            <div class="project-info-container window">
-              <div class="project-info-dash-box">
-                <span class="project-info-container-name">Toy Invasion Mania</span>
-                <span class="project-info-container-info">Idle-clicker & Tower Offense Game</span>
-              </div>
+    <!-- UI & UX Projects -->
+    <section id="UIUX" class="main-section">
+      <div class="header-container">
+        <div class="header-box window"></div>
+        <p style="color: #02ff2b">UI & UX Projects</p>
+      </div>
+      <div class="main-section-row">
+        <a href="/soma.html" class="main-section-project">
+          <img src="/img/projects_cover/project_cover_soma.png" class="project-image window" />
+          <div class="project-info-container window">
+            <div class="project-info-dash-box">
+              <span class="project-info-container-name">Camera HUD UI Design & Engine Implementation</span>
+              <span class="project-info-container-info">Unity, Figma</span>
             </div>
-          </a>
-          <a href="https://futuregames.itch.io/akuma" target="_blank" class="projects-section-project">
-            <img src="/img/projects_cover/project_cover_akuma.png" class="project-image window">
-            <div class="project-info-container window">
-              <div class="project-info-dash-box">
-                <span class="project-info-container-name">Akuma</span>
-                <span class="project-info-container-info">2D Platformer</span>
-              </div>
+          </div>
+        </a>
+        <a href="#" class="main-section-project">
+          <img src="/img/projects_cover/project_cover_alienterminal.png" class="project-image window" />
+          <div class="project-info-container window">
+            <div class="project-info-dash-box">
+              <span class="project-info-container-name">Main Menu UI Design & Engine Implementation
+              </span>
+              <span class="project-info-container-info">Unity, Figma</span>
             </div>
-          </a>
-          <a href="#" target="_blank" class="projects-section-project">
-            <div class="project-image project-image-wip window-wip" style="background-color: #8A5051;">WIP</div>
-            <div class="project-info-container window-wip" style="background-color: #8A5051;">
-              <div class="project-info-dash-box">
-                <span class="project-info-container-name" style="color: #008080;">Untitled</span>
-                <span class="project-info-container-info" style="color: #008080;">Horror, Retro MS-DOS</span>
-              </div>
+          </div>
+        </a>
+        <a href="#" class="main-section-project">
+          <img src="/img/projects_cover/project_cover_unrealphone.png" class="project-image window" />
+          <div class="project-info-container window">
+            <div class="project-info-dash-box">
+              <span class="project-info-container-name">Phone UI Design & Engine Implementation
+              </span>
+              <span class="project-info-container-info">Unreal Engine 5, Figma</span>
             </div>
-          </a>
-        </div>
-      </section>
+          </div>
+        </a>
+      </div>
+    </section>
 
-      <!-- Studies & Analysis -->
-      <section id="Studies" class="projects-section">
-        <div class="header-container">
-          <div class="header-box window"></div>
-          <p style="color:#00FDFD;">Studies & Analysis</p>
-        </div>
-        <div class="projects-section-row">
-          <a href="#" target="_blank" class="projects-section-project">
-            <img class="project-image window">
-            <div class="project-info-container window">
-              <div class="project-info-dash-box">
-                <span class="project-info-container-name">Resident Evil Fixed Camera Recreation</span>
-                <span class="project-info-container-info">Unity, C#</span>
-              </div>
+    <!-- Game Projects -->
+    <section id="Games" class="main-section">
+      <div class="header-container">
+        <div class="header-box window"></div>
+        <p style="color: #ffff00">Game Projects</p>
+      </div>
+      <div class="main-section-row">
+        <a href="https://futuregames.itch.io/toy-invasion-mania" target="_blank" class="main-section-project">
+          <img src="/img/projects_cover/project_cover_toy.png" class="project-image window" />
+          <div class="project-info-container window">
+            <div class="project-info-dash-box">
+              <span class="project-info-container-name">Toy Invasion Mania</span>
+              <span class="project-info-container-info">Idle-clicker & Tower Offense Game</span>
             </div>
-          </a>
-          <!-- <a href="#" target="_blank" class="projects-section-project">
+          </div>
+        </a>
+        <a href="https://futuregames.itch.io/akuma" target="_blank" class="main-section-project">
+          <img src="/img/projects_cover/project_cover_akuma.png" class="project-image window" />
+          <div class="project-info-container window">
+            <div class="project-info-dash-box">
+              <span class="project-info-container-name">Akuma</span>
+              <span class="project-info-container-info">2D Platformer</span>
+            </div>
+          </div>
+        </a>
+        <a href="#" target="_blank" class="main-section-project">
+          <div class="project-image project-image-wip window-wip" style="background-color: #8a5051">
+            WIP
+          </div>
+          <div class="project-info-container window-wip" style="background-color: #8a5051">
+            <div class="project-info-dash-box">
+              <span class="project-info-container-name" style="color: #008080">Untitled</span>
+              <span class="project-info-container-info" style="color: #008080">Retro Horror</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Studies & Analysis -->
+    <section id="Studies" class="main-section">
+      <div class="header-container">
+        <div class="header-box window"></div>
+        <p style="color: #00fdfd">Studies & Analysis</p>
+      </div>
+      <div class="main-section-row">
+        <a href="#" target="_blank" class="main-section-project">
+          <img class="project-image window" />
+          <div class="project-info-container window">
+            <div class="project-info-dash-box">
+              <span class="project-info-container-name">Resident Evil Fixed Camera Recreation</span>
+              <span class="project-info-container-info">Unity, C#</span>
+            </div>
+          </div>
+        </a>
+        <!-- <a href="#" target="_blank" class="main-section-project">
             <img class="project-image window">
             <div class="project-info-container window">
               <div class="project-info-dash-box">
@@ -146,7 +167,7 @@
               </div>
             </div>
           </a>
-          <a href="#" target="_blank" class="projects-section-project">
+          <a href="#" target="_blank" class="main-section-project">
             <img class="project-image window">
             <div class="project-info-container window">
               <div class="project-info-dash-box">
@@ -155,14 +176,18 @@
               </div>
             </div>
           </a> -->
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <footer class="footer window">
-        <div class="footer-item">Lucas Pettersson</div>
-        <div class="footer-item">clm.pettersson@gmail.com</div>
-        <div class="footer-item">+46 73 829 84 52</div>
-        <div class="footer-item"><a href="#">CV Download</a></div>
-      </footer>
-  </body>
+    <footer class="footer window">
+      <div class="footer-item">Lucas Pettersson</div>
+      <div class="footer-item">clm.pettersson@gmail.com</div>
+      <div class="footer-item">+46 73 829 84 52</div>
+      <div class="footer-item"><a href="#">CV Download</a></div>
+    </footer>
+
+  </main>
+
+</body>
+
 </html>
