@@ -33,6 +33,8 @@ p {
 
   height: 100vh;
 
+  border-bottom: 1px var(--palette-greendark-color) solid;
+
   margin-bottom: 128px;
 }
 
@@ -55,21 +57,21 @@ p {
   font-size: 4rem;
   margin: 0px;
 
-  color: b5fe0a;
+  color: #b5fe0a;
 }
 
 .hero-highlight {
   font-family: 'PumpOpti-Medium';
 
-  color: #ff3636;
+  color: #fff;
 }
 
 .hero-project-pointer {
   position: absolute;
 
   bottom: 12%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  right: 2.5%;
+  /* transform: translate(-50%, -50%); */
 
   font-size: 1.5rem;
 
