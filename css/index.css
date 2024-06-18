@@ -23,17 +23,23 @@ p {
 }
 
 /* ABOUT */
-.index-about {
-  padding: 96px;
+.hero {
+  /* padding: 96px;
   padding-top: 128px;
-  margin-bottom: 32px;
-  height: min-content;
-  border: var(--palette-greendark-color) solid 2px;
-  border-radius: 0 0 50px 50px;
+  margin-bottom: 32px; */
+
+  border: red solid 2px;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.hero-foreground-content {
+  font-size: 2rem;
 }
 
 .index-about-profile {

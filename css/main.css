@@ -15,6 +15,11 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: Sansation-Regular;
+  src: url(/font/Sansation_Regular.ttf);
+}
+
 /* GENERAL */
 * {
   box-sizing: border-box;
@@ -35,6 +40,11 @@ a {
   text-decoration: underline;
   /* text-decoration: none; */
   /* cursor: url("/img/cursor/terminal_cursor_pointer.png"), auto; */
+}
+
+.exclusive-header {
+  font-family: Sansation;
+  color: #b5fe0a;
 }
 
 .bold {
