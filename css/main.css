@@ -16,8 +16,18 @@ html {
 }
 
 @font-face {
-  font-family: Sansation-Regular;
+  font-family: 'Sansation-Regular';
   src: url(/font/Sansation_Regular.ttf);
+}
+
+@font-face {
+  font-family: 'PumpOpti-Medium';
+  src:url('/font/PumpOpti/PumpOpti-Medium.ttf.woff') format('woff'),
+      url('/font/PumpOpti/PumpOpti-Medium.ttf.svg#PumpOpti-Medium') format('svg'),
+      url('/font/PumpOpti/PumpOpti-Medium.ttf.eot'),
+      url('/font/PumpOpti/PumpOpti-Medium.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* GENERAL */
@@ -43,7 +53,7 @@ a {
 }
 
 .exclusive-header {
-  font-family: Sansation;
+  /* font-family: Sansation; */
   color: #b5fe0a;
 }
 
@@ -107,6 +117,8 @@ nav {
   margin-left: 32px;
   text-decoration: none;
   color: white;
+
+  font-family: Sansation;
 }
 
 .nav-menu {
@@ -128,7 +140,9 @@ nav {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+
   font-size: 1.25em;
+  font-family: Sansation;
 }
 
 .dropdown-content {

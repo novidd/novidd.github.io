@@ -39,7 +39,31 @@ p {
 }
 
 .hero-foreground-content {
-  font-size: 2rem;
+  /* width: 900px; */
+}
+
+.hero-foreground-content h1 {
+  font-family: 'Sansation';
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin: 0px;
+
+  color: #b5fe0a;
+}
+
+.hero-foreground-content h2 {
+  font-family: 'PumpOpti-Medium';
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin: 0px;
+
+  color: b5fe0a;
+}
+
+.hero-highlight {
+  font-family: 'PumpOpti-Medium';
+
+  color: #b5fe0a;
 }
 
 .hero-background-content {
