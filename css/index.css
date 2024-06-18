@@ -42,26 +42,10 @@ p {
   font-size: 2rem;
 }
 
-.index-about-profile {
-  width: 400px;
+.hero-background-content {
 
-  border-bottom-width: 1px;
-  border-color: var(--palette-greendark-color);
-  border-left-width: 1px;
-  border-right-width: 1px;
-  border-style: solid;
-  border-top-width: 1px;
-  opacity: 1;
-  border-radius: 10px;
 }
 
-.index-about p {
-  margin-left: 32px;
-  border: var(--palette-greendark-color) solid 1px;
-  border-radius: 10px;
-  max-width: 600px;
-  padding: 32px;
-}
 
 /* PROJECTS */
 .index-projects-wrapper-outer {
@@ -75,7 +59,6 @@ p {
   /* border: red solid 2px; */
   gap: 64px;
 }
-
 
 .index-projects-wrapper-row {
   display: flex;
