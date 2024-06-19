@@ -13,9 +13,7 @@
 }
 
 body {
-  color: white;
-  background-color: #000000;
-  margin: 0;
+  background-color: rgb(3, 3, 3);
 }
 
 p {
