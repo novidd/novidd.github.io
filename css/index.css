@@ -22,8 +22,6 @@ p {
 
 /* ABOUT */
 .hero {
-  /* border: red solid 2px; */
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,7 +44,7 @@ p {
   font-size: 2.5rem;
   margin: 0px;
 
-  color: #b5fe0a;
+  color: var(--palette-green-color);
 }
 
 .hero-foreground-content h2 {
@@ -55,12 +53,11 @@ p {
   font-size: 4rem;
   margin: 0px;
 
-  color: #b5fe0a;
+  color: var(--palette-green-color);
 }
 
 .hero-highlight {
   font-family: 'PumpOpti-Medium';
-
   color: #fff;
 }
 
