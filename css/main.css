@@ -7,9 +7,8 @@
   --orange-color: #F19D38;
 
   /* COLOR PALETTE*/
-  --palette-green-color: #b5fe0a;
-  --palette-greenverydark-color: #2c3d03;
-  --palette-greendark-color: #021609;
+  --palette-green-color: hsl(75, 100%, 50%);
+  --palette-greendark-color: hsl(100, 25%, 10%);
 }
 
 * {
