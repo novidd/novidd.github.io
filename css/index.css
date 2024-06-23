@@ -69,15 +69,26 @@ p {
 .hero-project-pointer {
   position: absolute;
 
-  bottom: 12%;
-  right: 2.5%;
-  /* transform: translate(-50%, -50%); */
+  /* bottom: 5%;
+  right: 35%; */
 
-  font-size: 1.5rem;
+  text-align: right;
+
+  top: 90%;
+  right: 2.5%;
+
+  font-size: 3rem;
+  font-weight: bold;
+
+  font-family: 'PumpOpti-Medium';
+
+  color: rgba(0, 0, 0, 0);
+
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.33); 
 
   text-transform: uppercase;
 
-  font-family: 'Sansation';
+  /* font-family: 'Sansation'; */
 }
 
 .hero-background-content {
@@ -264,10 +275,21 @@ hr {
   gap: 48px;
 }
 
-.about-content p {
-  width: 720px;
-  font-size: 1.25rem;
+.about-content-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 
+  width: 720px;
+}
+
+.about-content h1 {
+  font-family: 'PumpOpti-Medium';
+  margin: 0;
+}
+
+.about-content p {
+  font-size: 1.25rem;
   font-family: 'Sansation-Regular';
 }
 
