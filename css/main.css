@@ -83,6 +83,10 @@ a {
   color: var(--palette-green-color);
 }
 
+.highlighted-text{
+  color: var(--palette-green-color);
+}
+
 /* Socials */
 .socials-wrapper {
   display: flex;

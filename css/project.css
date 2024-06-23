@@ -15,6 +15,36 @@
   font-family: 'Sansation-Regular';
 }
 
+/* Project Text Styles */
+p {
+  font-size: 1.25em;
+}
+
+.project-text-header {
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.project-text-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  text-align: left;
+}
+
+.project-text-section-left {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  gap: 8px;
+}
+
 /* Sections */
 .projectpage-main {
   display: flex;
@@ -34,7 +64,6 @@
 .project-section-top {
 
 }
-
 
 /* Description */
 .project-desc-content {
@@ -78,9 +107,6 @@
   color: rgb(100, 100, 100);
 }
 
-p {
-  font-size: 1.25em;
-}
 
 .project-section {
   display: block;
@@ -115,19 +141,6 @@ hr {
   width: 100%;
   margin-top: 32px;
   margin-bottom: 32px;
-}
-
-/* Project Text Section */
-.project-text-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  text-align: left;
-}
-
-.project-text-section h1 {
-  font-size: 2.5rem;
 }
 
 .project-text-section p {

@@ -8,8 +8,8 @@ Startpage:
 Project strucutre:
 - Remove creation date - [X]
 - Negative space at top, if feels claustrophobic - [X]
+- Sell that I made everything myself. - [X]
 - Overview gif at top - []
-- Sell that I made everything myself. - []
 - Conceptual phase to design. - []
 - Style guide, shapes, font, colors. - []
 - Many screenshots. - []
@@ -19,7 +19,12 @@ Project strucutre:
 
 - Move walkthrough video to the bottom. Clearly communicate that it's a full walkthrough video. - []
 
+
+Alien Terminal:
+- Add a flowchart & greyboxing section
+- In the style guide make sure to include the buttons
+
 CV:
-- Match portfolio - []
+- Match portfolio style - []
 - Bullet points for each experience what I did, keywords - []
 - Sell myself - atmospheric UI & UX, background in programming - []
