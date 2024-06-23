@@ -53,12 +53,12 @@ p {
   font-size: 4rem;
   margin: 0px;
 
-  color: var(--palette-green-color);
+  color: white;
 }
 
 .hero-highlight {
   font-family: 'PumpOpti-Medium';
-  color: #fff;
+  color: var(--palette-green-color);
 }
 
 .hero-project-pointer {
@@ -74,7 +74,7 @@ p {
   
   color: rgba(0, 0, 0, 0);
   
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.25); 
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.35); 
   
   text-transform: uppercase;
 }

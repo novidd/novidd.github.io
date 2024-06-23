@@ -74,6 +74,11 @@ a {
   font-size: 16px;
 }
 
+.highlighted-header {
+  font-family: 'PumpOpti-Medium';
+  color: var(--palette-green-color);
+}
+
 .highlighted-text {
   color: var(--palette-green-color);
 }
@@ -265,6 +270,7 @@ footer {
 
   font-family: 'Sansation-Regular';
   font-size: 1.25rem;
+  font-weight: bold;
 
   text-decoration: none;
   color: black;
