@@ -7,7 +7,6 @@
   --orange-color: #F19D38;
 
   /* COLOR PALETTE*/
-  /* --palette-green-color: #0afe60; */
   --palette-greendark-color: #021609;
 }
 
@@ -93,12 +92,16 @@ p {
   flex-direction: row;
   align-items: start;
   justify-content: space-between;
+  gap: 16px;
 }
 
 .project-desc-item {
   text-align: left;
-  }
-  
+  min-width: 128px;
+  max-width: 256px;
+  width: 256px
+}
+
 .project-desc-item-header {
   font-weight: bold;
 }
