@@ -3,7 +3,7 @@ Startpage:
 - Move about to bottom. - [X]
 - Direct the recruiter to my projects from the top. - [X]
 - Gif slideshow. - []
-- Make the SOMA project the most important/large - []
+- Make the SOMA project the most important/large (move to top)- []
 
 Project strucutre:
 - Remove creation date - [X]
