@@ -2,18 +2,18 @@ Startpage:
 - Large header "Atmospheric UI/UX Design" - [X]
 - Move about to bottom. - [X]
 - Direct the recruiter to my projects from the top. - [X]
-- Gif slideshow. - []
-- Make the SOMA project the most important/large (move to top)- []
+- Video slideshow. - []
+- Make the SOMA project the most important/large (move to top)- [X]
 
 Project strucutre:
 - Remove creation date - [X]
 - Negative space at top, if feels claustrophobic - [X]
 - Sell that I made everything myself. - [X]
+- Make sure images are the same size. - [X]
 - Overview gif at top - []
 - Conceptual phase to design. - []
 - Style guide, shapes, font, colors. - []
 - Many screenshots. - []
-- Make sure images are the same size. - []
 
 - Reflection: Make it more direct, what went well, what could be better, learnings to the next project - []
 

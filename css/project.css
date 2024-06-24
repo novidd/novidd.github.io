@@ -44,13 +44,21 @@ p {
   gap: 8px;
 }
 
+.project-text-section-left p {
+  max-width: 720px;
+}
+
+.project-text-section p {
+  max-width: 720px;
+}
+
 /* Sections */
 .projectpage-main {
   display: flex;
   align-items: center;
   flex-direction: column;
 
-  gap: 128px;
+  gap: 96px;
 
   padding: 200px 0px 0px;
 }
@@ -62,6 +70,13 @@ p {
 
 .project-section-top {
 
+}
+
+.project-section {
+  display: block;
+  max-width: 100%;
+  width: 70%;
+  /* min-width: 70%; */
 }
 
 /* Description */
@@ -110,44 +125,54 @@ p {
   color: rgb(100, 100, 100);
 }
 
-
-.project-section {
-  display: block;
-  max-width: 100%;
-  width: 70%;
-  /* min-width: 70%; */
+/* Video Player */
+.project-video-player-wrapper {
+  padding: 32px; 
+  background-color: #1A1A1A; 
+  border-radius: 32px;
 }
 
-.project-section > p {
-  margin-top: 0;
-  font-size: 1.25em;
+/* Image Styles */
+.project-images-wrapper {
+  margin-top: 64px;
+  width: 100%;
 }
 
-.projectpage-header-wrapper {
+.project-images-row {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  gap: 32px;
 }
 
-.projectpage-header-wrapper > h1 {
-  display: flex;
-  justify-content: start;
-  font-size: 1.75em;
+.project-image-container {
 }
 
-.projectpage-header-wrapper > h1 > a {
-  font-size: 16px;
-  margin-left: 6px;
-}
-
-hr {
+.project-image {
+  display: block;
+  object-fit: contain;
+  max-height: 400px;
   width: 100%;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  height: 100%;
+
+  border: 2px solid var(--palette-greendark-color);
+  border-radius: 32px;
+
+  cursor: pointer;
 }
 
-.project-text-section p {
-  max-width: 720px;
+.project-image-wide {
+  display: block;
+  object-fit: contain;
+  max-width: none;
+  width: 100%;
+  height: 100%;
+
+  border: 2px solid var(--palette-greendark-color);
+  border-radius: 32px;
+
+  cursor: pointer;
 }
 
 /* Project Reflection */

@@ -79,12 +79,9 @@ a {
   color: var(--palette-green-color);
 }
 
-.highlighted-text {
-  color: var(--palette-green-color);
-}
-
 .highlighted-text{
   color: var(--palette-green-color);
+  font-weight: bold;
 }
 
 /* Socials */
