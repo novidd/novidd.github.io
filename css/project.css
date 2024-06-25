@@ -255,6 +255,10 @@ p {
   margin-right: 32px;
 }
 
+hr {
+  border: 1px solid var(--palette-greendark-color);
+}
+
 /* MEDIA QUERY */
 /* @media (max-width: 1500px) {
   .project-section {
@@ -274,5 +278,5 @@ p {
   .project-section {
     max-width: 85%;
     min-width: 85%;
-  } */
-}
+  }
+} */
