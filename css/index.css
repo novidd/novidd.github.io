@@ -40,7 +40,7 @@ p {
 }
 
 .hero-foreground-content h1 {
-  font-family: 'Sansation';
+  font-family: 'Sansation-Regular';
   text-transform: uppercase;
   font-size: 2.5rem;
   margin: 0px;
@@ -151,6 +151,8 @@ p {
 
 /* PROJECTS */
 .index-projects-wrapper-outer {
+  font-family: 'Sansation-Regular';
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -231,11 +233,13 @@ p {
   bottom:0;
   width: 100%;
 
+  font-family: 'Sansation-Regular';
+
   overflow: hidden;
 
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
   padding: 24px;
 
   /* background: linear-gradient(rgba(80, 80, 80, 0) 0%, rgb(0, 0, 0) 100%); */
