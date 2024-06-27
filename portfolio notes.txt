@@ -14,9 +14,15 @@ Project structure:
 - Many screenshots. - [X]
 - Style guide, shapes, font, colors. - [X]
 
-- Overview gif at top - []
-
 - Reflection: Make it more direct, what went well, what could be better, learnings to the next project - [X]
+
+----------------------------------------------------------------
+
+Navigation:
+- Change the nav buttons to look better - []
+
+Projects:
+- Overview gif at top - []
 
 Alien Terminal:
 - Add a flowchart & greyboxing section - []

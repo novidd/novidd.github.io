@@ -31,7 +31,7 @@ p {
 
   border-bottom: 1px var(--palette-greendark-color) solid;
 
-  margin-bottom: 128px;
+  /* margin-bottom: 128px; */
 }
 
 .hero-foreground-content {
@@ -88,7 +88,8 @@ p {
 }
 
 .hero-background-content {
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
   z-index: -999;
 
   height: 100%;

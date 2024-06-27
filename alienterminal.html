@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alien Terminal | Lucas Pettersson</title>
+  <title>Soma Camera | Lucas Pettersson</title>
 
   <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,237 +19,259 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
   <!-- ICONS -->
   <script src="https://kit.fontawesome.com/0eee456650.js" crossorigin="anonymous"></script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/project.css">
-  <link rel="stylesheet" href="css/alienterminal.css">
+  <link rel="stylesheet" href="css/somacamera.css">
   <link rel="icon" type="image/x-icon" href="/img/icon_64x64.png">
+
 </head>
 
 <body>
-  <div class="socials-wrapper">
-    <a class="socials-item" href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-    <a class="socials-item" href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank"><img src="img/icon/cv.png"></a>
-  </div>
   
+  <!-- Socials -->
+  <div class="socials-wrapper">
+    <a class="socials-item" href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank"><i
+        class="fa-brands fa-linkedin-in"></i></a>
+    <a class="socials-item" href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing"
+      target="_blank"><img src="img/icon/cv.png"></a>
+  </div>
+  <main class="main">
+
+  <!-- Nav -->
   <nav>
-    <a class="nav-menu-name" href="index.html">Lucas Pettersson</a>
-    <div class="nav-menu">
-      <div><a href="index.html">Home</a></div>
-      <div class="dropdown">
-        <a href="#">Projects</a>
-        <div class="dropdown-content">
-          <a href="/alienterminal.html">Alien Terminal</a>
-          <a href="/unrealphone.html">Interactable Phone</a>
-          <a href="/somacamera.html">Soma Camera</a>
-        </div>
+    <div class="nav-inner">
+      <a class="nav-menu-name" href="index.html">Lucas Pettersson</a>
+      <div class="nav-menu">
+        <div><a href="index.html#projects">Projects</a></div>
+        <div><a href="index.html#about">About</a></div>
+        <div><a href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank">CV</a></div>
       </div>
-      <div><a href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank"">CV</a></div>
-      <div><a href="contact.html">Contact</a></div>
     </div>
   </nav>
 
-  <!-- <div class="projectpage-index-menu-wrapper">
-    <a href="#about" class="projectpage-index-menu-item">I.</a>
-    <a href="#goals" class="projectpage-index-menu-item">II.</a>
-    <a href="#assets" class="projectpage-index-menu-item">III.</a>
-    <a href="#theme" class="projectpage-index-menu-item">IV.</a>
-  </div> -->
+    <!-- Project Content -->
+    <div class="projectpage-main">
+      
+      <!-- Project Description -->
+      <section class="project-section">
+        <div class="project-desc-content">
 
-  <div class="projectpage-main">
-    <section class="projectpage-section projectpage-section-centered">
-      <img class="projectpage-imglogo" src="/img/projects/alienterminal/sevastolink.png">
-      <div class="wrapper">
-        <!-- <div class="h_iframe">
-          <iframe src="https://www.youtube.com/embed/XX0tm3A9pys?autoplay=1"
-            title="Alien Isolation Diegetic UI Terminal - Made in Unity" frameborder="0" allowfullscreen>
-          </iframe>
-        </div> -->
-        <div style="padding:56.25% 0 0 0;position:relative;">
-          <iframe src="https://player.vimeo.com/video/870229204?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;muted=1&amp;autoplay=1&amp;loop=1" 
-            frameborder="0" 
-            allow="autoplay; fullscreen; picture-in-picture" 
-            style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-            title="Alien Isolation Diegetic UI Terminal - Made in Unity">
-          </iframe>
+          <div class="project-header-wrapper">
+            <h1 class="exclusive-header project-desc-header"><span class="highlighted-header">Main Menu</span> Terminal</h1>
+            <div class="project-asset-disclaimer">
+              *All UI assets and code in this project was made my me.
+            </div>
+            <div class="project-asset-disclaimer">
+              *This is a solo project.
+            </div>
+            <div class="project-asset-disclaimer">
+              *This is a school project.
+            </div>
+            <div class="project-asset-disclaimer">
+              *This project includes a game-engine implementation.
+            </div>
+          </div>
+
+          <div class="project-desc-details-wrapper">
+            <div class="project-desc-item">
+              <p class="project-desc-item-header">Team Size</p>
+              <p class="project-desc-item-text">Solo</p>
+            </div>
+            <div class="project-desc-item">
+              <p class="project-desc-item-header">Role</p>
+              <p class="project-desc-item-text">UI Designer</p>
+            </div>
+            <div class="project-desc-item">
+              <p class="project-desc-item-header">Duration</p>
+              <p class="project-desc-item-text">1.5 week(s)</p>
+            </div>
+            <div class="project-desc-item">
+              <p class="project-desc-item-header">Tools</p>
+              <p class="project-desc-item-text">Figma, Photoshop, Unity, Github</p>
+            </div>
+          </div>
         </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
-    </section>
-    <section class="projectpage-section projectpage-section-centered">
-      <h2 style="margin-bottom: 64px;">Try the <a href="https://play.unity.com/mg/other/alienterminal" target="_blank"><span class="highlighted-text">Unity WebGL Demo</span></a>!
-        (Or open the <a href="https://www.figma.com/file/MaLJbbpwBYj5WciXaXyYqe/AlienIsolationDiegeticUI?type=design&node-id=0%3A1&mode=design&t=Mah46ivK952fTTcq-1" target="_blank">Figma Design Document</a>)</h2>
-    </section>
-    <section id="about" class="projectpage-section">
-      <div class="projectpage-header-wrapper">
-        <h1><span class="highlighted-text target">I.</span> About the project <a href="#about"><i class="fa-solid fa-link"></i></a></h1>
-      </div>
-      <p>Creation date: <span class="highlighted-text">Dec.2022 (Updated Sep 2023)</span></p>
-      <p>Team size: <span class="highlighted-text">Solo</span></p>
-      <p>Software used: <span class="highlighted-text">Figma, Unity, Photoshop</span></p>
-      <p><span class="bold">Production time: Figma Prototype <span class="highlighted-text">(14 days)</span> + Unity <span
-          class="highlighted-text">(2 days)</span></p>
-      <hr>
-    </section>
-    <section id="goals" class="projectpage-section">
-      <div class="projectpage-header-wrapper">
-        <h1><span class="highlighted-text">II.</span> Theme & Goal(s) <a href="#goals"><i class="fa-solid fa-link"></i></a></h1>
-      </div>
-      <p>
-        As my first UI, prototyped a main menu in <span class="highlighted-text">Figma, then implemented it in Unity </span>
-        with at least two internal menus and a simple store page.
-        <br>
-        <br>
-        A goal I set for myself was to mimic the diegetic UI from the terminals in Alien Isolation, eventually with some improvements.
-        <br>
-        <br>
-        I tried maintaining the Alien franchise identity using <a href="http://www.roncobb.net/05-Alien.html" target="_blank">Ron Cobb's</a> iconic design work.
-      <div class="projectpage-hor-ver-content-wrapper">
-        <div class="projectpage-hor-var-content-row">
-          <img class="projectpage-image-right" src="/img/projects/alienterminal/hazard_icon.png">
+
+      </section>
+
+      <!-- Video player -->
+      <section class="project-section">
+        <div class="wrapper project-video-player-wrapper">
+          <div style="padding: 56.25% 0 0 0; position:relative;">
+            <iframe src="https://player.vimeo.com/video/870229204?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;muted=1&amp;autoplay=1&amp;loop=1" 
+              frameborder="0" 
+              allow="autoplay; fullscreen; picture-in-picture" 
+              style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+              title="Alien Isolation Diegetic UI Terminal - Made in Unity">
+            </iframe>
+          </div>
+      </section>
+
+      <!-- Longer description - SOMA Camera HUD -->
+      <section class="project-section">
+        <div class="project-text-section-left">
+          <h1 class="exclusive-header project-text-header bold">Making a Main Menu</h1>
           <p>
-            For example, this icon means <span class="highlighted-text">"hazard warning"</span> which I placed on the play game button.
+            TEXT
           </p>
         </div>
-        <div class="projectpage-hor-var-content-row">
-          <img class="projectpage-image-right" src="/img/projects/alienterminal/terminal_icon.png">
+
+        <!-- Multiple images of the finished UI -->
+        <div class="project-images-wrapper project-images-row">
+          <div class="project-image-container">
+            <!-- Get higher res version -->
+            <img src="/img/projects/soma/final_ui.png" class="project-image">
+          </div>
+          <div class="project-image-container">
+            <img src="/img/projects/soma/final_ui_figma.png" class="project-image">
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Conceptual Phase To Design -->
+      <!-- Write about how I started by looking at the assets that already existed from the game SOMA and other designs of UI in the game.
+      Use and image of the crane UI as one of my inspirations. -->
+      <section class="project-section">
+        <div class="project-text-section-left">
+          <h1 class="exclusive-header project-text-header bold">Concept to Design</h1>
           <p>
-            Another example, this icon means <span class="highlighted-text">"computer terminal"</span>.
+            To start with, I identified all of the <span class="highlighted-text">features</span> I wanted for the camera: 
+            <br>
+            <br>
+            <span class="highlighted-text">(1.) Horizontal (yaw) rotation</span>,
+            <br>
+            <br>
+            <span class="highlighted-text">(2.) Vertical (pitch) rotation</span>,
+            <br>
+            <br>
+            <span class="highlighted-text">(3.) Camera zoom (FOV)</span>,
+            <br>
+            <br> 
+            <span class="highlighted-text">(4.) Audio bars</span> (for 3D world audio).
+            <br>
+            <br>
+            Since the design is set in the world of SOMA, I analyzed the UI in the game to make the designs <span class="highlighted-text">congruent</span>.
+            <br>
+            <br>
+            I skipped the greybox/wireframing phase since I started work in <span class="highlighted-text">Unity</span> immediately because I wanted the UI to function well with the post processing as you can see in the images below.
           </p>
         </div>
-      </div>
-      <hr>
-    </section>
-    <section id="method" class="projectpage-section">
-        <div class="projectpage-header-wrapper">
-          <h1><span class="highlighted-text">III.</span> Methodology <a href="#assets"><i class="fa-solid fa-link"></i></a></h1>
+
+        <!-- Breakdown -->
+        <div class="project-images-wrapper project-images-row">
+          <div class="project-image-container">
+            <img src="/img/projects/soma/breakdown.png" class="project-image">
+          </div>
+          <div class="project-image-container">
+            <img src="/img/projects/soma/concept_design_camera_features.png" class="project-image">
+          </div>
         </div>
-        <p style="font-size: 1.25em;">
-          <span class="highlighted-text">Design:</span>
-          <div class="projectpage-hor-var-content-row">
-            <img style="width: 400px; margin-right: 32px;" src="/img/projects/alienterminal/Method_StartMenu.png">
+
+        <hr style="margin-top: 64px; margin-bottom: 64px;">
+
+        <div class="project-text-section-left">
+          <h1 class="exclusive-header project-text-header bold" style="font-size: 2rem;">Flowchart & Greyboxing</h1>
+          <p>
+            Flowchart Text
+            <br>
+            <br>
+            This old version of the UI is closer to grayscale images rather than greyboxing since its quite detailed.
+          </p>
+        </div>
+
+        <!-- UI Progression -->
+        <div class="project-images-wrapper project-images-row">
+          <div class="project-image-container">
+            <img src="/img/projects/soma/concept_design_01.png" class="project-image">
+          </div>
+          <div class="project-image-container">
+            <img src="/img/projects/soma/concept_design_02.png" class="project-image">
+          </div>
+        </div>
+
+        <div class="project-images-wrapper project-images-row">
+          <div class="project-image-container">
+            <img src="/img/projects/soma/concept_design_03.png" class="project-image">
+          </div>
+          <div class="project-image-container">
+            <img src="/img/projects/soma/concept_design_04.png" class="project-image">
+          </div>
+        </div>
+
+      </section>
+
+      <!-- World Building  -->
+      <section class="project-section">
+        <div class="project-text-section-left">
+          <h1 class="exclusive-header project-text-header bold">World Building</h1>
+          <p>
+            TEXT
+          </p>
+        </div>
+
+        <!-- Images and explanations of how I implemented world building -->
+        <div class="project-images-wrapper project-images-row">
+          <div class="project-image-container">
+            <img src="/img/projects/soma/world_building.png" class="project-image">
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Project Style Guide -->
+      <section class="project-section">
+        
+        <div class="project-text-section-left">
+          <h1 class="exclusive-header project-text-header bold">Style Guide</h1>
+          <p>
+            This style guide is within the <span class="highlighted-text">Microsoft Accessibility Guidelines</span> for PC at 1080p.
+          </p>
+        </div>
+
+        <!-- Style Guide Image -->
+        <div class="project-images-wrapper project-images-row">
+          <div class="project-image-container">
+            <img src="/img/projects/soma/style_guide.png" class="project-image-wide">
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Project Reflection -->
+      <section style="margin-bottom: 128px;" class="project-section">
+
+        <div class="project-reflection">
+          <div class="project-text-section project-reflection">
+            <h1 class="exclusive-header project-text-header">Takeaways</h1>
             <p>
-              In the process of learning a skill the best thing to do is to imitate; 
-              I started by compiling references from Alien Isolation and creating a greyscale version of the UI.
+              TEXT
             </p>
           </div>
-          <div class="projectpage-hor-var-content-row">
-            <img style="width: 400px; margin-right: 32px;" src="/img/projects/alienterminal/Method_StartMenu_Finished.png">
-            <p>
-              Next was to get the colors right and finializing the visuals and creating all the pages. I would do it differently today 
-              (see the <a href="#reflection">Reflection</a> section).
-            </p>
-          </div>
-          <br>
-          <br>
-          <span style="font-size: 1.25em;" class="highlighted-text">Engine Implementation:</span>
-          <br>
-          <br>
-          <div class="projectpage-hor-var-content-row">
-            <img style="width: 400px; margin-right: 32px;" src="/img/projects/alienterminal/Method_VideoSettings.png">
-            <p>
-              I encountered a challenge in how to structure the code for the fixed side menu and the nesting menus below it.
-              <br>
-              <br>
-              Another challenge was doing the white lines connecting to each sub section.
-            </p>
-          </div>
-          <div class="projectpage-hor-var-content-row">
-            <p>
-              Remember to try the 
-              <a href="https://play.unity.com/mg/other/alienterminal" target="_blank"><span class="highlighted-text">Unity WebGL Demo</span></a>!
-            </p>
-          </div>
-        </p>
-        <hr>
-    </section>
-    <!-- <section id="theme" class="projectpage-section">
-      <div class="projectpage-header-wrapper">
-        <h1><span class="highlighted-text">IV.</span> Greyscale<a href="#theme"><i class="fa-solid fa-link"></i></a></h1>
-      </div>
-      <p>My thought process in doing things.</p>
-      <div class="projectpage-image-grid-wrapper">
-        <div class="projectpage-image-block">
-          <a href="/img/projects/alienterminal/StartMenu_GreyScale.png" target="_blank">
-            <img src="/img/projects/alienterminal/StartMenu_GreyScale.png">
-          </a>
         </div>
-        <div class="projectpage-image-block">
-          <a href="/img/projects/alienterminal/Options_GreyScale.png" target="_blank">
-            <img src="/img/projects/alienterminal/Options_GreyScale.png">
-          </a>
+
+        <div class="personal-links-wrapper" style="margin-top: 32px;">
+          <div class="generic-button">
+            <a href="">CV</a>
+          </div>
+          <div class="generic-button">
+            <a href="" style="background-color: rgb(0, 119, 181); color: white;"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <div class="generic-button">
+            <a href="" style="background-color: rgb(41, 41, 41); color: white;"><i class="fa-brands fa-medium"></i></a>
+          </div>
         </div>
-        <div class="projectpage-image-block">
-          <a href="/img/projects/alienterminal/PlayMenu_GreyScale.png" target="_blank">
-            <img src="/img/projects/alienterminal/PlayMenu_GreyScale.png">
-          </a>
-        </div>
-        <div class="projectpage-image-block"></div>
-        <div class="projectpage-image-block"></div>
-        <div class="projectpage-image-block"></div>
-        <div class="projectpage-image-block"></div>
-        <div class="projectpage-image-block"></div>
-        <div class="projectpage-image-block"></div>
-      </div>
-      <hr>
-    </section> -->
-  </section>
-  <section id="reflection" class="projectpage-section">
-    <div class="projectpage-header-wrapper">
-      <h1><span class="highlighted-text">V.</span> Reflection<a href="#reflection"><i class="fa-solid fa-link"></i></a></h1>
+      </section>
+
     </div>
-    <p>
-      <span class="highlighted-text">What I've learned:</span>
-      <br>
-      <br>
-      Since this project was my first time implementing a UI in a game engine, I'm quite satisfied.
-      <br>
-      <br>
-      Initially you could only navigate in the UI with the mouse, at the moment there is partial support for gamepad/keyboard navigation - you can't change the settings properly.
-      <br>
-      <br>
-      Starting work in-engine as early as possible is important to identify if my designs are possible with my skill/knowledge,
-      avoiding problems when the deadline is coming close.
-      <br>
-      <br>
-      Something I've learned before through modding in games (<a href="https://frictionalgames.com/" target="_blank">HPL2</a>), is that the best way of learning is to imitate.
-      <br>
-      <br>
-      <br>
-      <span class="highlighted-text">What I could do better:</span>
-      <br>
-      <br>
-      Think more about gamepad/keyboard navigation early on so the UI design supports it.
-      <br>
-      <br>
-      Take Xbox's accessibility rules into more consideration from the beginning.
-    </p>
-    <hr>
-  </section>
-    <!-- <section id="shots" class="projectpage-section">
-      <div class="projectpage-header-wrapper">
-        <h1><span class="highlighted-text">V.</span> Screenshots (Unity)<a href="#shots"><i class="fa-solid fa-link"></i></a></h1>
-      </div>
-      Grid of screenshots here
-      <hr>
-    </section> -->
-    <section  class="projectpage-section">
-      <div class="projectpage-header-wrapper">
-        <h1>Other UI Studies & Analysis</h1>
-      </div>
-      <p>No chickens here. More to come.</p>
-    </section>
-    <!-- (include section with Methodology) - Armored Core 6 (PC), Honkai Star Rail (Mobile + PC)  -->
-  </div>
-  <footer>
-    <div class="footer-item">Lucas Pettersson</div>
-    <div class="footer-item">clm.pettersson@gmail.com</div>
-    <div class="footer-item">+46 73 829 84 52</div>
-    <div class="footer-item"><a href="#">CV Download</a></div>
-  </footer>
+
 </body>
 
 </html>
