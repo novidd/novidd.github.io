@@ -19,7 +19,7 @@ Project structure:
 ----------------------------------------------------------------
 
 Navigation:
-- Change the nav buttons to look better - []
+- Change the nav buttons to look better - [X]
 
 Projects:
 - Overview gif at top - []
@@ -29,6 +29,7 @@ Alien Terminal:
 - In the style guide make sure to include the buttons - [X]
 
 CV:
-- Match portfolio style - []
-- Bullet points for each experience what I did, keywords - []
-- Sell myself - atmospheric UI & UX, background in programming - []
+- Match portfolio style - [X]
+- Bullet points for each experience what I did, keywords - [X]
+- Sell myself - atmospheric UI & UX, background in programming - [X]
+- Write the text stuff - [X]
