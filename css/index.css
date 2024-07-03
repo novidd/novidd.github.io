@@ -58,7 +58,9 @@ p {
 }
 
 .hero-highlight {
-  font-family: 'PumpOpti-Medium';
+  /* font-family: 'PumpOpti-Medium'; */
+  font-family: 'Magettas-DEMO-Bold';
+  letter-spacing: 1px;
   color: var(--palette-green-color);
 }
 
@@ -82,8 +84,8 @@ p {
 
 .hero-project-pointer span {
   font-weight: bold;
-  font-family: 'PumpOpti-Medium';
-
+  /* font-family: 'PumpOpti-Medium'; */
+  font-family: 'Magettas-DEMO-Bold';
   margin-right: 8px;
 }
 
@@ -321,7 +323,8 @@ hr {
 }
 
 .about-content h1 {
-  font-family: 'PumpOpti-Medium';
+  /* font-family: 'PumpOpti-Medium'; */
+  font-family: 'Magettas-DEMO-Bold';
   margin: 0;
 }
 

@@ -38,6 +38,16 @@ html {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Magettas-DEMO-Bold';
+  src:url('/font/Magettas/Magettas-DEMO-Bold.ttf.woff') format('woff'),
+      url('Magettas-DEMO-Bold.ttf.svg#Magettas-DEMO-Bold') format('svg'),
+      url('Magettas-DEMO-Bold.ttf.eot'),
+      url('Magettas-DEMO-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* General */
 body {
   color: white;
@@ -58,8 +68,11 @@ a {
 .exclusive-header {
   /* font-family: Sansation; */
   color: #b5fe0a;
-  font-family: 'PumpOpti-Medium';
+  /* font-family: 'PumpOpti-Medium'; */
+  font-family: 'Magettas-DEMO-Bold';
   text-transform: uppercase;
+  letter-spacing: 1px;
+  
   margin-top: 16px;
   margin-bottom: 16px;
 }
@@ -73,7 +86,9 @@ a {
 }
 
 .highlighted-header {
-  font-family: 'PumpOpti-Medium';
+  /* font-family: 'PumpOpti-Medium'; */
+  font-family: 'Magettas-DEMO-Bold';
+  letter-spacing: 1px;
   color: var(--palette-green-color);
 }
 

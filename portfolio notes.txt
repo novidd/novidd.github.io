@@ -1,8 +1,0 @@
-CV: 
-- Program/Tools icon - [X]
-
-Portfolio:
-- In-engine progress gif/video - [X]
-- Concept to design higher contrast  - [X]
-- Update terminal preview video to new visuals  - [X]
-- Change header font to be less silly/round, make it more spooky/serious/pointy - []
