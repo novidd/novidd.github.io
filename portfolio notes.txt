@@ -1,7 +1,9 @@
-CV: Program/Tools icon
+CV: 
+- Program/Tools icon
 
 Portfolio:
 
-- In-engine progress gif
-- Concept to design higher contrast
-- Update terminal preview video to new visuals
+- In-engine progress gif/video - []
+- Concept to design higher contrast  - []
+- Update terminal preview video to new visuals  - []
+- Change header font to be less silly/round, make it more spooky
