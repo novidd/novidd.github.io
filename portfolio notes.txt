@@ -5,4 +5,4 @@ Portfolio:
 - In-engine progress gif/video - []
 - Concept to design higher contrast  - []
 - Update terminal preview video to new visuals  - []
-- Change header font to be less silly/round, make it more spooky - []
+- Change header font to be less silly/round, make it more spooky/serious/pointy - []
