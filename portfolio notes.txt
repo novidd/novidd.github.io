@@ -1,35 +1,7 @@
-Start page: 
-- Large header "Atmospheric UI/UX Design" - [X]
-- Move about to bottom. - [X]
-- Direct the recruiter to my projects from the top. - [X]
-- Video slideshow. - [X]
-- Make the SOMA project the most important/large (move to top)- [X]
+CV: Program/Tools icon
 
-Project structure:
-- Remove creation date - [X]
-- Negative space at top, if feels claustrophobic - [X]
-- Sell that I made everything myself. - [X]
-- Make sure images are the same size. - [X]
-- Conceptual phase to design. - [X]
-- Many screenshots. - [X]
-- Style guide, shapes, font, colors. - [X]
+Portfolio:
 
-- Reflection: Make it more direct, what went well, what could be better, learnings to the next project - [X]
-
-----------------------------------------------------------------
-
-Navigation:
-- Change the nav buttons to look better - [X]
-
-Projects:
-- Overview gif at top - []
-
-Alien Terminal:
-- Add a flowchart & greyboxing section - [X]
-- In the style guide make sure to include the buttons - [X]
-
-CV:
-- Match portfolio style - [X]
-- Bullet points for each experience what I did, keywords - [X]
-- Sell myself - atmospheric UI & UX, background in programming - [X]
-- Write the text stuff - [X]
+- In-engine progress gif
+- Concept to design higher contrast
+- Update terminal preview video to new visuals

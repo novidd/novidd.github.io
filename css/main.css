@@ -9,6 +9,7 @@
   /* COLOR PALETTE*/
   --palette-green-color: hsl(75, 100%, 50%);
   --palette-greendark-color: hsl(100, 25%, 10%);
+  --gray-text-color: rgb(100, 100, 100);
 }
 
 * {
@@ -59,6 +60,8 @@ a {
   color: #b5fe0a;
   font-family: 'PumpOpti-Medium';
   text-transform: uppercase;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .bold {
@@ -266,7 +269,7 @@ footer {
   align-items: center;
   gap: 50px;
 
-  /* margin-top: 16px; */
+  margin-top: 64px;
 
   width: 100%;
 }
