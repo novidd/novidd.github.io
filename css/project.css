@@ -52,6 +52,34 @@ p {
   max-width: 720px;
 }
 
+/* Top Background Image */
+.project-top-image-bg-wrapper {
+  margin-top: 64px;
+
+  position: absolute;
+  z-index: -999;
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-top-image-bg-wrapper img {
+  height: 100%;
+}
+
+.project-top-image-bg-gradient-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 50%, rgba(0,0,0,0.5) 100%); 
+}
+
 /* Sections */
 .projectpage-main {
   display: flex;
