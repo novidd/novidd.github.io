@@ -1,0 +1,12 @@
+- I don't think the Font of your name matches well with the style of the rest of your page, I would update it 
+--> Change the nav bar name font - [X]
+
+- I think I saw some minor grammatical mistakes. It would be nice to get that checked by some friends or software like Grammarly - [X]
+
+- I would like to see some more text that explains why you made particular design choices and 
+how you approached your work process in addition to the more descriptive text you currently have. 
+The learning section doesn't tell me enough about how you work to justify its absence. 
+--> Create a section going more in detail about my process of making the project - []
+
+- If you have a third project of similar quality, I would add it. Especially if it is something that caters to a different type of product, 
+for example a AAA shooter. This is usually a lot of work, so invest your time in applying to companies rather than updating your portfolio with this - []

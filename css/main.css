@@ -160,8 +160,9 @@ nav {
   font-size: 2em;
   text-decoration: none;
   color: var(--palette-green-color);
-
-  font-family: Sansation;
+  font-family: 'Magettas-DEMO-Bold';
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .nav-menu {
