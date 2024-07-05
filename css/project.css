@@ -105,6 +105,9 @@ p {
   max-width: 100%;
   width: 70%;
   /* min-width: 70%; */
+
+  border-left: 2px var(--palette-greendark-color) solid;
+  padding-left: 48px;
 }
 
 /* Description */
