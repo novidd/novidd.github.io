@@ -10,3 +10,8 @@ The learning section doesn't tell me enough about how you work to justify its ab
 
 - If you have a third project of similar quality, I would add it. Especially if it is something that caters to a different type of product, 
 for example a AAA shooter. This is usually a lot of work, so invest your time in applying to companies rather than updating your portfolio with this - []
+
+- Explain my reasoning for design decisions 
+- Wider about text
+- Remove futuregames/course references
+- Portfolio link file for in dice application
