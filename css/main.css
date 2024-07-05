@@ -8,6 +8,8 @@
 
   /* COLOR PALETTE*/
   --palette-green-color: hsl(75, 100%, 50%);
+  /* --palette-green-color: #39ff14; */
+
   --palette-greendark-color: hsl(100, 25%, 10%);
   --gray-text-color: rgb(100, 100, 100);
 }
@@ -67,7 +69,7 @@ a {
 
 .exclusive-header {
   /* font-family: Sansation; */
-  color: #b5fe0a;
+  color: var(--palette-green-color);
   /* font-family: 'PumpOpti-Medium'; */
   font-family: 'Magettas-DEMO-Bold';
   text-transform: uppercase;
