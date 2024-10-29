@@ -214,6 +214,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     gap: 5px;
+    padding-bottom: 4px;
 }
 
 .nav-hamburger-menu div {
