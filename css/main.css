@@ -324,7 +324,7 @@ footer {
     border-radius: 50px;
     padding: 8px;
 
-    width: 100%;
+    width: 135px;
 }
 
 .generic-button {
@@ -366,6 +366,24 @@ footer {
     }
 }
 
+@media (max-width: 640px)
+{
+    .personal-links-wrapper {
+        /* flex-direction: column; */
+        gap: 16px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .generic-button {
+        width: 64px;
+    }
+
+    .personal-links-wrapper a {
+        width: 64px;
+    }
+}
+
 @media (max-width: 560px) {
     .nav-menu-name-long {
         display: none;
@@ -373,6 +391,10 @@ footer {
 
     .nav-menu-name-short {
         display: block;
+    }
+
+    nav {
+        padding: 0 32px 0 32px;
     }
 }
 
