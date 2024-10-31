@@ -62,10 +62,12 @@ p {
     height: 100%;
     width: 100%;
 
-    /* display: flex; */
-    display: none;
+    display: flex;
+    /* display: none; */
     align-items: center;
     justify-content: center;
+
+    overflow: hidden;
 }
 
 .project-top-image-bg-wrapper img {
