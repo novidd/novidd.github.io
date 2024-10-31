@@ -1,81 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home | Lucas Pettersson</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Lucas Pettersson</title>
 
-  <!-- FONTS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <!-- ICONS -->
-  <script src="https://kit.fontawesome.com/0eee456650.js" crossorigin="anonymous"></script>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/0eee456650.js" crossorigin="anonymous"></script>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="icon" href="/img/icon_64x64.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="/img/icon_64x64.png">
 </head>
-<body>
 
-  <!-- Socials -->
-  <div class="socials-wrapper">
-    <a class="socials-item" href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-    <a class="socials-item" href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank"><img src="img/icon/cv.png"></a>
-  </div>
+<body>
+    <!-- Socials -->
+    <div class="socials-wrapper">
+        <a class="socials-item" href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+        <a class="socials-item"
+            href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing"
+            target="_blank"><img src="img/icon/cv.png"></a>
+    </div>
+
+    <!-- HAM MENU -->
+    <div class="nav-hamburger-menu" id="ham-menu">
+            <div class="generic-button" style="width: 135px;">
+                <a href="index.html#projects" style="background:none; color: var(--palette-green-color);">Projects</a>
+            </div>
+            <div class="generic-button" style="width: 135px;">
+                <a href="index.html#about" style="background:none; color: var(--palette-green-color);">About</a>
+            </div>
+            <div class="generic-button" style="width: 135px;">
+                <a href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank">CV</i></a>
+            </div>
+    </div>
+
     <main class="main">
 
-      <!-- NAV -->
-      <nav>
-        <div class="nav-inner">
-          <a class="nav-menu-name" href="index.html">Lucas Pettersson</a>
-          <div class="nav-menu">
-            <div class="generic-button"">
-              <a href="index.html#projects" style="background:none; color: var(--palette-green-color);">Projects</a>
+        <!-- NAV -->
+        <nav>
+            <div class="nav-inner">
+                <a class="nav-menu-name nav-menu-name-long" href="index.html">Lucas Pettersson</a>
+                <a class="nav-menu-name nav-menu-name-short" href="index.html">LP</a>
+                <a class="nav-hamburger-menu-toggle-button" onclick="myFunction()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </a>
+                <div class="nav-menu">
+                    <div class="generic-button"">
+                        <a href="index.html#projects" style="background:none; color: var(--palette-green-color);">Projects</a>
+                    </div>
+                    <div class="generic-button">
+                        <a href="index.html#about" style="background:none; color: var(--palette-green-color);">About</a>
+                    </div>
+                    <div class="generic-button">
+                        <a href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank">CV</i></a>
+                    </div>
+                </div>
             </div>
-            <div class="generic-button">
-              <a href="index.html#about" style="background:none; color: var(--palette-green-color);">About</a>
-            </div>
-            <div class="generic-button">
-              <a href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank">CV</i></a>
-            </div>
-          </div>
-        </div>
-      </nav>
+        </nav>
 
-      <!-- Hero -->
-      <section id="hero" class="hero">
-        <div class="hero-background-content">
-          <div class="hero-background-content-overlay"></div>
-          <img style="height: 100%;" src="/img/hero_showreel_new.gif" alt="Show reel gif">
-          <!-- <div class="hero-video-wrapper video-background">
-            <div style="padding:56.25% 0 0 0;">
-              <iframe src="https://player.vimeo.com/video/967616052?badge=0&amp;?background=1&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;sidedock=0&amp;controls=0&amp;autoplay=1&amp;loop=1" 
-                frameborder="0" 
-                allow="autoplay; fullscreen; picture-in-picture;" 
-                title="Portfolio_Index">
-              </iframe>
+        <!-- Hero -->
+        <section id="hero" class="hero">
+
+            <!-- THE GIF BREAKS MOBILE VERSION!!! FIND NEW CSS SOLUTION -->
+
+            <div class="hero-background-content">
+                <div class="hero-background-content-overlay"></div>
+                <img style="height: 100%;" src="/img/hero_showreel_new.gif" alt="Show reel gif">
             </div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
-          </div> -->
-        </div>
-        <div class="hero-foreground-content">
-          <h1 class="exclusive-header">UI & UX Designer</h1>
-          <h2 class="exclusive-header" style="font-family: 'Magettas-DEMO-Bold';" ><span class="hero-highlight">Atmosphere</span> & <span class="hero-highlight">Immersion</span><br>in Focus</h2>
-          
-          <div class="hero-project-pointer"><span>Projects</span><i style="-webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);" class="fa-solid fa-arrow-down"></i></div>
-        </div>
-      </section>
+
+            <div class="hero-foreground-content">
+                <h1 class="exclusive-header">UI & UX Designer</h1>
+                <h2 class="exclusive-header">
+                    <span class="hero-highlight">Atmosphere</span> & <span class="hero-highlight">Immersion</span> in Focus
+                </h2>
+
+                <div class="hero-project-pointer">
+                    <span>Projects</span>
+                    <i style="-webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);" class="fa-solid fa-arrow-down"></i>
+                </div>
+            </div>
+        </section>
 
       <!-- Projects -->
       <!-- Make this just 1 column instead -->
@@ -142,9 +168,9 @@
           <div class="about-content">
             <img src="/img/me/profile_tiny.jpg">
             <div class="about-content-text-wrapper">
-              <h1 style="letter-spacing: 1px; line-height: 36px; color: white;" class="exclusive-header">I'm <span class="highlighted-header">Lucas Pettersson</span>, a <span class="highlighted-header">UI and UX Designer</span> with <span class="highlighted-header">atmosphere</span> and <span class="hero-highlight">immersion</span> in focus</h1>
+              <h1 style="letter-spacing: 1px; line-height: 36px; color: white;" class="exclusive-header">I'm <span class="highlighted-header">Lucas Pettersson</span>, a <span class="highlighted-header">Technical UI and UX Designer</span> with <span class="highlighted-header">atmosphere</span> and <span class="hero-highlight">immersion</span> in focus</h1>
               <p>
-                I’m a <span class="highlighted-text">UI & UX designer</span> with a background in coding C# in Unity.
+                I’m a <span class="highlighted-text">Technical UI & UX designer</span> with a background in coding C# in Unity.
                 <br>
                 <br>
                 I was born and raised in northern Sweden - surrounded by nature, which has led me to enjoy games that <span class="highlighted-text">immerse</span> you in a world.
@@ -167,25 +193,16 @@
                 </div>
               </div>
 
-              <div style="display:flex; align-items: center; justify-content: space-around; width: 100%; margin-top: 24px; font-size: 1.25rem; color: var(--palette-green-color);">
-                <div>clm.pettersson@gmail.com</div>
-                <div>(+46) 073 829 84 52</div>
-              </div>
+                        <div class="index-contact-info"">
+                            <div>clm.pettersson@gmail.com</div>
+                            <div>(+46) 073 829 84 52</div>
+                        </div>
 
-            </div>
-          </div>
-        </section>
-      </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
-      <!-- <section class="index-studies">
-        <h1>UI Studies & Analysis</h1>
-        <p><span class="highlighted-text">WIP</span></p>
-      </section> -->
-      <!-- <footer>
-        <div class="footer-item">Lucas Pettersson</div>
-        <div class="footer-item">clm.pettersson@gmail.com</div>
-        <div class="footer-item">+46 73 829 84 52</div>
-        <div class="footer-item"><a href="#">CV Download</a></div>
-      </footer> -->
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
