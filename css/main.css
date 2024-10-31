@@ -138,9 +138,10 @@ nav {
     align-items: center;
     justify-content: center;
 
-    padding: 0 48px 0 48px;
+    padding: 0 32px 0 32px;
+    padding-top: 16px;
 
-    height: 80px;
+    height: 64px;
     z-index: 999;
     /* background: linear-gradient(#000000, rgba(145, 152, 229, 0)); */
     /* background: linear-gradient(rgba(0, 0, 0, .8) 100%, rgba(0, 0, 0, 0) 100%); */
@@ -153,10 +154,9 @@ nav {
 .nav-inner {
     width: 100%;
     max-width: 1400px;
-    min-height: 80px;
+    
     display: flex;
     flex-direction: row;
-    height: min-content;
     justify-content: space-between;
     align-items: center;
 }
@@ -205,7 +205,7 @@ nav {
     width: 100%;
 }
 
-.nav-hamburger-menu{
+.nav-hamburger-menu-toggle-button {
     /* background-color: red; */
     height: 32px;
     width: 32px;
@@ -215,16 +215,66 @@ nav {
     justify-content: center;
     gap: 5px;
     padding-bottom: 4px;
+
+    z-index: 9999;
 }
 
-.nav-hamburger-menu div {
+.nav-hamburger-menu-toggle-button:hover {
+    cursor: pointer;
+}
+
+.nav-hamburger-menu-toggle-button div {
     height: 2px;
     background-color: var(--palette-green-color);
 }
 
-.dropdown-content {
+.nav-hamburger-menu {
+    position: fixed;
+    top: 0;
+    
+    width: 100%;
+    z-index: 1000;
+
+    margin-top: 64px;
+    padding: 16px;
+    padding-top: 0px;
+    /* padding-right: 36px; */
+
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.nav-menu-ham {
+
+}
+
+.nav-hamburger-menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+    font-family: "Sansation-Regular";
+    font-size: 1.25rem;
+    font-weight: bold;
+
+    color: var(--palette-green-color);
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 8px;
+
+    width: 100%;
+}
+
+.dropdown-content {
     position: absolute;
+    display: none;
     background-color: #f9f9f9;
     min-width: 250px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -342,7 +392,12 @@ footer {
 }
 
 @media (min-width: 1000px) {
+    
     .nav-hamburger-menu {
+        display: none;
+    }
+
+    .nav-hamburger-menu-toggle-button {
         display: none
     }
 
@@ -395,6 +450,7 @@ footer {
 
     nav {
         padding: 0 32px 0 32px;
+        padding-top: 16px;
     }
 }
 

@@ -31,7 +31,6 @@
 </head>
 
 <body>
-
     <!-- Socials -->
     <div class="socials-wrapper">
         <a class="socials-item" href="https://www.linkedin.com/in/lucaspetterssonfg" target="_blank"><i
@@ -42,7 +41,17 @@
     </div>
 
     <!-- HAM MENU -->
-
+    <div class="nav-hamburger-menu" id="ham-menu">
+            <div class="generic-button" style="width: 135px;">
+                <a href="index.html#projects" style="background:none; color: var(--palette-green-color);">Projects</a>
+            </div>
+            <div class="generic-button" style="width: 135px;">
+                <a href="index.html#about" style="background:none; color: var(--palette-green-color);">About</a>
+            </div>
+            <div class="generic-button" style="width: 135px;">
+                <a href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank">CV</i></a>
+            </div>
+    </div>
 
     <main class="main">
 
@@ -51,7 +60,7 @@
             <div class="nav-inner">
                 <a class="nav-menu-name nav-menu-name-long" href="index.html">Lucas Pettersson</a>
                 <a class="nav-menu-name nav-menu-name-short" href="index.html">LP</a>
-                <a class="nav-hamburger-menu">
+                <a class="nav-hamburger-menu-toggle-button" onclick="myFunction()">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -59,14 +68,13 @@
                 </a>
                 <div class="nav-menu">
                     <div class="generic-button"">
-                        <a href=" index.html#projects" style="background:none; color: var(--palette-green-color);">Projects</a>
+                        <a href="index.html#projects" style="background:none; color: var(--palette-green-color);">Projects</a>
                     </div>
                     <div class="generic-button">
                         <a href="index.html#about" style="background:none; color: var(--palette-green-color);">About</a>
                     </div>
                     <div class="generic-button">
-                        <a href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing"
-                            target="_blank">CV</i></a>
+                        <a href="https://drive.google.com/file/d/1mXQKvQi9N4-74kEJao5FMFyDB2jDUudW/view?usp=sharing" target="_blank">CV</i></a>
                     </div>
                 </div>
             </div>
@@ -194,16 +202,6 @@
             </section>
         </div>
 
-        <!-- <section class="index-studies">
-        <h1>UI Studies & Analysis</h1>
-        <p><span class="highlighted-text">WIP</span></p>
-      </section> -->
-        <!-- <footer>
-        <div class="footer-item">Lucas Pettersson</div>
-        <div class="footer-item">clm.pettersson@gmail.com</div>
-        <div class="footer-item">+46 73 829 84 52</div>
-        <div class="footer-item"><a href="#">CV Download</a></div>
-      </footer> -->
+    <script src="script.js"></script>
 </body>
-
 </html>
