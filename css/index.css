@@ -99,6 +99,8 @@ p {
     position: absolute;
     z-index: -999;
 
+    overflow: hidden;
+
     height: 100%;
     width: 100%;
 
@@ -384,6 +386,14 @@ hr {
 
 /* MEDIA QUERIES */
 @media (max-width: 1280px) {
+    .hero-foreground-content h1 {
+        font-size: 1.75rem;
+    }
+
+    .hero-foreground-content h2 {
+        font-size: 3rem;
+    }
+
     .index-projects-wrapper-outer {
         padding: 0px 0px;
         width: 100%;
@@ -414,13 +424,13 @@ hr {
 }
 
 @media (max-width: 1000px) {
-    .hero-foreground-content h1 {
+    /* .hero-foreground-content h1 {
         font-size: 1.75rem;
     }
 
     .hero-foreground-content h2 {
         font-size: 3rem;
-    }
+    } */
 
     .index-projects-wrapper-row {
         gap: 64px;
@@ -428,9 +438,9 @@ hr {
 }
 
 @media (min-width: 1000px) {
-    .hero-foreground-content h1 {
+    /* .hero-foreground-content h1 {
         font-size: 2.5rem;
-    }
+    } */
 }
 
 @media (max-width: 800px) {
@@ -497,6 +507,7 @@ hr {
         width: 100%;
         display: flex;
         justify-content: center;
+        padding-left: 12px;
         gap: 0;
     }
     
