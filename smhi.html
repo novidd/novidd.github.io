@@ -100,8 +100,8 @@
                     <div class="project-header-wrapper">
                         <h1 class="exclusive-header project-desc-header"><span class="highlighted-header">SMHI Weather App Redesign</span></h1>
                         <div class="project-asset-disclaimer" style="display:flex; flex-direction: column; gap: 8px;">
-                            <a href="https://www.figma.com/design/ewfrjm7seHwOUNSvK376xw/SMHI-Mobile-App-Prototype?node-id=0-1&t=gr2IY5AhZzhW0Ag8-1">*Link to the Figma document</a>
-                            <a href="https://www.figma.com/proto/ewfrjm7seHwOUNSvK376xw/SMHI-Mobile-App-Prototype?node-id=0-1&node-type=canvas&viewport=572%2C348%2C0.25&t=gr2IY5AhZzhW0Ag8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=13%3A216
+                            <a target="_blank" href="https://www.figma.com/design/ewfrjm7seHwOUNSvK376xw/SMHI-Mobile-App-Prototype?node-id=0-1&t=gr2IY5AhZzhW0Ag8-1">*Link to the Figma document</a>
+                            <a target="_blank" href="https://www.figma.com/proto/ewfrjm7seHwOUNSvK376xw/SMHI-Mobile-App-Prototype?node-id=0-1&node-type=canvas&viewport=572%2C348%2C0.25&t=gr2IY5AhZzhW0Ag8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=13%3A216
                             ">*Link to the Figma prototype</a>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                 <!-- Style Guide Image -->
                 <div class="project-images-wrapper project-images-row">
                     <div class="project-image-container">
-                        <img src="/img/projects/terminal/style_guide.png" class="project-image-wide">
+                        <img src="/img/projects/smhi/style_guide.png" class="project-image-wide">
                     </div>
                 </div>
 
@@ -162,27 +162,10 @@
             <!-- Longer description - SOMA Camera HUD -->
             <section class="project-section">
                 <div class="project-text-section-left">
-                    <h1 class="exclusive-header project-text-header bold">Making a Main Menu</h1>
+                    <h1 class="exclusive-header project-text-header bold">Goal</h1>
                     <p>
-                        This project is a main menu based on <a
-                            href="https://store.steampowered.com/app/214490/Alien_Isolation/" target="_blank">Alien
-                            Isolation</a>'s terminal UI.
-                        Below is the design process, from concept to implementation.
+                        The goal with this project was to redesign the Swedish SMHI's weather app, giving it a new look and removing bloat such as removing nested pages.
                     </p>
-                </div>
-
-                <!-- Multiple images of the finished UI -->
-                <div class="project-images-wrapper project-images-row">
-                    <!-- <div class="project-image-container">
-                        <img src="/img/projects/terminal/final_ui.png" class="project-image">
-                        <p style="width: 100%; text-align: center; margin-top: 16px; color: var(--gray-text-color)">
-                            Unity Final UI</p>
-                    </div> -->
-                    <div class="project-image-container">
-                        <img src="/img/projects/terminal/final_ui_figma.png" class="project-image">
-                        <p style="width: 100%; text-align: center; margin-top: 16px; color: var(--gray-text-color)">
-                            Figma Final UI</p>
-                    </div>
                 </div>
 
                 <hr style="">
@@ -192,9 +175,35 @@
                     <h1 class="exclusive-header project-text-header bold" style="font-size: 2rem;">Concept to Design
                     </h1>
                     <p>
-                        I used Alien Isolation's terminal UI as a foundation for the UI design.
-                        The goal of this project was to create a main menu version of it, meaning I would have to make
-                        all assets mimic the visuals.
+                        <!-- Go through a few points of renovation in regard to the original design
+                            - Changing the start page so it has the weather for the next 10 days, and the 10 days nav is changed to only have diagram
+                            - 
+                        -->
+                        A gripe I have with the official design is the lack of convenience of information on the start page 
+                        - you only get to see the weather of today and tomorrow at an hourly basis. 
+                        <br>
+                        <br>
+                        In my redesign, the next 10 days' weather is on the start page, now the diagram is on it's own page,
+                        making the UI less bloated in pages.
+                        <br>
+                        <br>
+                    </p>
+
+                    <div class="project-images-wrapper project-images-row">
+                        <div class="project-image-container">
+                            <img src="/img/projects/smhi/Prototype_Start_Original.png" class="project-image">
+                            <p style="width: 100%; text-align: center; margin-top: 16px; color: var(--gray-text-color)">Official</p>
+                        </div>
+                        <div class="project-image-container">
+                            <img src="/img/projects/smhi/Prototype_Start.png" class="project-image">
+                            <p style="width: 100%; text-align: center; margin-top: 16px; color: var(--gray-text-color)">Redesign</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <p>
+                        The main features of the app are as follows below:
                         <br>
                         <br>
                         <span class="highlighted-text">(1.) Start</span> (Today's weather and following 10 days),
@@ -209,16 +218,10 @@
                         <span class="highlighted-text">(4.) Weather Warnings</span> (Warnings around your location and rest of Sweden).
                         <br>
                         <br>
-                        Below is the <span class="highlighted-text">original concept breakdown</span>. Initially, I was
+                        <!-- Below is the <span class="highlighted-text">original concept breakdown</span>. Initially, I was
                         going to build a diegetic UI but decided to stay on a 2D canvas,
-                        due to time constraints.
+                        due to time constraints. -->
                     </p>
-                </div>
-
-                <div class="project-images-wrapper project-images-row">
-                    <div class="project-image-container">
-                        <img src="/img/projects/terminal/concept_design.png" class="project-image">
-                    </div>
                 </div>
 
                 <hr style="">
@@ -284,10 +287,10 @@
                     </div>
                 </div>
 
-                <hr style="">
+                <!-- <hr style=""> -->
 
                 <!-- Flowchart + Greyboxing -->
-                <div class="project-text-section-left">
+                <!-- <div class="project-text-section-left">
                     <h1 class="exclusive-header project-text-header bold" style="font-size: 2rem;">Flowchart &
                         Grayboxing/Grayscale</h1>
                     <p>
@@ -298,20 +301,20 @@
                         This iteration of the UI is closer to grayscale images rather than grayboxing since it's rather
                         detailed.
                     </p>
-                </div>
+                </div> -->
 
                 <!-- Flowchart -->
-                <div class="project-images-wrapper project-images-row">
+                <!-- <div class="project-images-wrapper project-images-row">
                     <div class="project-image-container">
                         <img src="/img/projects/terminal/flowchart.png" class="project-image">
                     </div>
                 </div>
 
-                <hr style="">
+                <hr style=""> -->
 
                 <!-- Greyboxing -->
                 <!-- Row 1 -->
-                <div class="project-images-wrapper project-images-row">
+                <!-- <div class="project-images-wrapper project-images-row">
                     <div class="project-image-container">
                         <img src="/img/projects/terminal/greyscale_01.png" class="project-image">
                     </div>
@@ -321,23 +324,10 @@
                     <div class="project-image-container">
                         <img src="/img/projects/terminal/greyscale_03.png" class="project-image">
                     </div>
-                </div>
-
-                <!-- Row 2 -->
-                <!-- <div class="project-images-wrapper project-images-row">
-          <div class="project-image-container">
-            <img src="/img/projects/terminal/greyscale_04.png" class="project-image">
-          </div>
-          <div class="project-image-container">
-            <img src="/img/projects/terminal/greyscale_05.png" class="project-image">
-          </div>
-          <div class="project-image-container">
-            <img src="/img/projects/terminal/greyscale_06.png" class="project-image">
-          </div>
-        </div> -->
+                </div> -->
 
                 <!-- Row 3 -->
-                <div class="project-images-wrapper project-images-row">
+                <!-- <div class="project-images-wrapper project-images-row">
                     <div class="project-image-container">
                         <img src="/img/projects/terminal/greyscale_07.png" class="project-image">
                     </div>
@@ -347,67 +337,9 @@
                     <div class="project-image-container">
                         <img src="/img/projects/terminal/greyscale_09.png" class="project-image">
                     </div>
-                </div>
-
-                <!-- <hr style="margin-top: 64px; margin-bottom: 64px;">
-
-        <div class="project-text-section-left" style="margin-top: 48px;">
-          <h1 class="exclusive-header project-text-header bold" style="font-size: 2rem;">Engine Implementation</h1>
-          <p>
-            Text
-          </p>
-        </div> -->
+                </div> -->
 
             </section>
-
-            <!-- World Building  -->
-            <section class="project-section">
-                <div class="project-text-section-left">
-                    <h1 class="exclusive-header project-text-header bold">World Building</h1>
-                    <p>
-                        I used the <a href="https://www.roncobb.net/05-Alien.html" target="_blank">iconic design
-                            work</a> - The Semiotic Standard - for ALIEN by Ron Cobb to enforce the world building.
-                        <br>
-                        <br>
-                        The icon to the <span class="highlighted-text">left</span> means <span
-                            class="highlighted-text">hazard warning</span> which I placed on the play game button.
-                        <br>
-                        <br>
-                        The icon to the <span class="highlighted-text">right</span> means <span
-                            class="highlighted-text">computer terminal</span>.
-                        <br>
-                        <br>
-                        <span class="highlighted-text">Sevastolink</span> is the operating system the computer uses.
-                    </p>
-                </div>
-
-                <!-- Images and explanations of how I implemented world building -->
-                <div class="project-images-wrapper project-images-row">
-                    <div class="project-image-container">
-                        <img src="/img/projects/terminal/world_building.png" class="project-image">
-                    </div>
-                </div>
-
-            </section>
-
-            <!-- Project Style Guide -->
-            <!-- <section class="project-section">
-        
-        <div class="project-text-section-left">
-          <h1 class="exclusive-header project-text-header bold">Style Guide</h1>
-          <p>
-            This style guide is within the <span class="highlighted-text">Microsoft Accessibility Guidelines</span> for PC at 1080p.
-          </p>
-        </div> -->
-
-            <!-- Style Guide Image -->
-            <!-- <div class="project-images-wrapper project-images-row">
-          <div class="project-image-container">
-            <img src="/img/projects/terminal/style_guide.png" class="project-image-wide">
-          </div>
-        </div> -->
-
-            <!-- </section> -->
 
             <!-- Project Reflection -->
             <section style="margin-bottom: 128px;" class="project-section">
@@ -416,7 +348,7 @@
                     <div class="project-text-section project-reflection">
                         <h1 class="exclusive-header project-text-header">Takeaways</h1>
                         <p>
-                            Considering this project was <span class="highlighted-text">my first time implementing a
+                            <!-- Considering this project was <span class="highlighted-text">my first time implementing a
                                 User Interface</span> in a game engine and using Figma to do so, I'm quite satisfied
                             with the result.
                             <br>
@@ -428,7 +360,8 @@
                             <br>
                             <br>
                             It goes the same for the <span class="highlighted-text">process of this project</span> -
-                            breaking down the UI from Alien Isolation to then creating my derivative work from it.
+                            breaking down the UI from Alien Isolation to then creating my derivative work from it. -->
+                            TEXT
                         </p>
                     </div>
                 </div>
