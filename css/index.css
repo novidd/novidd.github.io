@@ -384,8 +384,16 @@ hr {
     color: var(--palette-green-color);
 }
 
+#smhi-card {
+    width: 47.5%;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 1280px) {
+    #smhi-card {
+        width: 100%;
+    }
+
     .hero-foreground-content h1 {
         font-size: 1.75rem;
     }
