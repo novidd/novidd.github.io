@@ -79,12 +79,20 @@ p {
     right: 2.5%;
 
     font-size: 3rem;
+}
 
+.border-text {
     color: rgba(0, 0, 0, 0);
 
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.35);
 
     text-transform: uppercase;
+}
+
+.row-divider-header {
+    font-size: 3rem;
+
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.15);
 }
 
 .hero-project-pointer span {
